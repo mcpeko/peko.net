@@ -37,6 +37,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   text-align: center;
+  min-height: 100vh;
   background-image: url('img/peko_photo_small.png');
   background-size: cover;
   background-position: center;
@@ -51,9 +52,9 @@ h1 {
 }
 
 footer {
-    align-items: center;
-    padding: 8px;
-    padding-bottom: 32px;
+  align-items: center;
+  padding: 8px;
+  padding-bottom: 32px;
 }
 
 ::selection {
