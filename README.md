@@ -10,7 +10,7 @@ This site is a simple, fast, no-nonsense homepage with links to:
 - **Bands** (Howlin' of the Wolf, Silentlab, Bronson Comet Lighter)  
 - **Remixes**  
 - **Music videos**  
-- **(POLARIZED)** polar ambient remixes  
+- **(Polarized)** polar ambient remixes  
 - **Movie extra** appearances
 
 Everything is kept intentionally minimal and text-based.
