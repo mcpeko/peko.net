@@ -35,5 +35,10 @@ Everything is kept intentionally minimal and text-based.
 
 ## Notes
 
-This repo mirrors the live site. Changes are developed locally, then
-committed and pushed here, and finally uploaded to the server.
+This repo mirrors the live site. Changes are developed locally, then committed and pushed here, and finally uploaded to the server.
+
+## License
+
+Code in this repository is licensed under the MIT License (see `LICENSE`). 
+
+All content, including images, photos, logos, data, audio, video and text, in this repository is copyright © Ole Peko Sørensen. All rights reserved. It may not be reused, copied, or redistributed without explicit permission.
