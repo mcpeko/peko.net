@@ -45,6 +45,14 @@
     </a>
   </div>
 
+  <div class="images">
+    <a href="https://github.com/mcpeko/peko.net" title="GitHub" aria-label="GitHub">
+      <svg class="icons">
+        <use href="/icons.svg#github" />
+      </svg>
+    </a>
+  </div>
+
 </footer>
 
 <script src="index.js"></script>
