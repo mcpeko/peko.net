@@ -1,0 +1,191 @@
+/* Ole Peko Sørensen */
+/* peko.net/style.css */
+
+/* VARIABLES */
+
+:root {
+  --color1: #0080ff;
+  --color2: #ff00ff;
+  --grey1: #222;
+  --grey2: #444;
+  --white: #fff;
+  --black: #000;
+  --font-size: 22px;
+  --maxwidth: 4096px;
+}
+
+/* TAGS */
+
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+  /* border: 1px solid var(--color1); */
+}
+
+html {
+  background-color: var(--black);
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: center;
+  background-image: url('img/peko_photo_small.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+footer {
+    align-items: center;
+    padding: 8px;
+    padding-bottom: 32px;
+    max-width: var(--maxwidth);
+}
+
+::selection {
+  color: var(--white);
+  background-color: var(--color1);
+}
+
+/* LINKS */
+
+a {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+a:not(:has(img, svg)):hover {
+  background: var(--white);
+}
+
+a:visited {
+  color: var(--color2);
+}
+
+/* CLASSES */
+
+/* Collapsable divs */
+
+.top-line {
+  align-items: center;
+  background: var(--grey1);
+  border-bottom: 2px solid var(--grey2);
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto 0;
+  max-width: 4096px;
+  padding: 10px;
+}
+
+.top-line h1 {
+  margin: 0;
+  text-align: left;
+}
+
+.icons {
+  height: 32px;
+  width: 32px;
+  fill: var(--white);
+  display: block;
+}
+
+.standard {
+  text-align: center;
+  max-width: 4096px;
+  margin: 0 auto;
+  padding: 1px;
+}
+
+.padded {
+  text-align: justify;
+  max-width: 4096px;
+  margin: 0 auto 16px;
+  padding: 10px;
+}
+
+/* Center text on medium screens */
+@media (min-width: 2048px) {
+  .center-on-medium-screen {
+    text-align: center;
+  }
+}
+
+.collapsed {
+  display: none;
+}
+
+.colored {
+  background-color: var(--grey1);
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  margin: 16px auto;
+  max-width: 2048px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.logos {
+  height: 32px;
+}
+
+footer .images {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.noselect {
+  user-select: none;
+}
+
+.invert-colors {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.show-pointer {
+  cursor: pointer;
+}
+
+/* Apply focus styles on devices with hover capability (e.g., desktop) */
+@media (hover: hover) {
+  :focus {
+    outline: 1px solid white;
+    outline-offset: 0; /* Adjust the spacing between the outline and the element */
+    border-radius: 0; /* Removes rounded corners */
+  }
+}
+
+/* Apply focus styles on devices without hover capability (e.g., phones) */
+@media (hover: none) {
+  :focus {
+    outline: none; /* Remove outline on devices without hover capability */
+  }
+}
+
+/* END OF FILE */
