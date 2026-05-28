@@ -29,7 +29,7 @@
   </div>
 
   <div class="padded center-on-medium-screen colored" id="lofiContainer">
-    Hi. I'm MC Peko or DJ Peko or Ole Peko Sørensen. Most of the time I make lofi beats on my phone. <a href="https://open.spotify.com/artist/5p4HgZHdHOOWlE9q7aJ9ZM">Here they are on Spotify</a>, and you can find them on other outlets as well. Instrumental, around two minutes and 70 BPM kinda stuff with sufficient crackle, shuffle and microtonality.
+    Hello. I'm MC Peko or DJ Peko or Ole Peko Sørensen. Most of the time I make lofi beats on my phone. <a href="https://open.spotify.com/artist/5p4HgZHdHOOWlE9q7aJ9ZM">Here they are on Spotify</a>, and you can find them on other outlets as well. Instrumental, around two minutes and 70 BPM kinda stuff with sufficient crackle, shuffle and microtonality.
   </div>
 
   <div class="top-line">
