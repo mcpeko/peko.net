@@ -1,0 +1,722 @@
+{
+    "schema_version": 1,
+    "entries": [
+        {
+            "id": "i-need-you-to-love-the-world",
+            "title": "I Need You To Love The World",
+            "url": "https://open.spotify.com/album/3fReba3yb9OItxa2itfGKU",
+            "image": "/img/releases/i-need-you-to-love-the-world.png",
+            "metadata": {
+                "artists": ["The Love Factor", "MC Peko"],
+                "release_date": "2023-09-21",
+                "duration_ms": 229255,
+                "label": "Velvet Elektra Records",
+                "format": "single",
+                "edition": "digital",
+                "track_count": 1
+            }
+        },
+        {
+            "id": "jehovas-vinter",
+            "title": "Jehovas vinter",
+            "description": "Cover photography and layout by Ole Peko Sørensen.",
+            "url": "https://tigernet.no/releases/204629-jehovas-vinter",
+            "image": "/img/releases/jehovas-vinter.png",
+            "metadata": {
+                "artists": ["Hornorkesteret"],
+                "release_date": "2019",
+                "duration_ms": 2422000,
+                "label": "Panot Audio",
+                "catalogue_number": "PANOT LP 003",
+                "written_by": ["Jonas Qvale", "Hornorkesteret"],
+                "produced_by": ["Jonas Qvale", "Thomas Oxem"],
+                "mixed_by": ["Thomas Oxem"],
+                "mastered_by": ["Christian Obermayer"],
+                "format": "LP album",
+                "edition": "black vinyl",
+                "track_count": 7
+            }
+        },
+        {
+            "id": "desertor-vol-2",
+            "title": "Desertör Vol. 2",
+            "metadata": {
+                "artists": [
+                    "Desertör"
+                ],
+                "release_date": "2019-05-10",
+                "duration_ms": 2384000,
+                "label": "Desertör",
+                "catalogue_number": "DES2",
+                "format": "LP album",
+                "edition": "black vinyl",
+                "manufacturer": "Eldorado Media",
+                "track_count": 8,
+                "copies": 175
+            },
+            "image": "/img/releases/desertor-vol-2.png",
+            "metadata_links": {
+                "label": "https://facebook.com/desertornorge",
+                "manufacturer": "http://eldorado-media.com"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "https://facebook.com/desertornorge"
+                }
+            ]
+        },
+        {
+            "id": "citrus-bliss",
+            "title": "Citrus Bliss",
+            "metadata": {
+                "artists": [
+                    "Bronson Comet Lighter"
+                ],
+                "release_date": "2019-03-07",
+                "duration_ms": 2190000,
+                "label": "Bronson Recordings",
+                "catalogue_number": "Bro'11",
+                "format": "LP album",
+                "edition": "black vinyl",
+                "manufacturer": "Eldorado Media",
+                "track_count": 10,
+                "copies": 250
+            },
+            "image": "/img/releases/citrus-bliss.png",
+            "metadata_links": {
+                "label": "http://bronson.no",
+                "manufacturer": "http://eldorado-media.com"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://bronson.no"
+                }
+            ]
+        },
+        {
+            "id": "the-chaser",
+            "title": "The Chaser",
+            "metadata": {
+                "artists": [
+                    "The Ghostly Ravens"
+                ],
+                "release_date": "2018-07-13",
+                "duration_ms": 660000,
+                "label": "Velvet Elektra",
+                "catalogue_number": "VE-004-DI",
+                "format": "single",
+                "edition": "digital",
+                "track_count": 2
+            },
+            "image": "/img/releases/the-chaser.png",
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "https://facebook.com/theghostlyravens"
+                },
+                {
+                    "label": "Spotify",
+                    "url": "https://open.spotify.com/album/0P41WIMJbMIR9knY4lKUE1?si=7tsGVbX3QUeNzJYK36jq7Q"
+                }
+            ]
+        },
+        {
+            "id": "ufo",
+            "title": "UFO / Cactus Land",
+            "metadata": {
+                "artists": [
+                    "Ring / Ørjan"
+                ],
+                "release_date": "2018-02-04",
+                "duration_ms": 1902000,
+                "label": "Krank",
+                "catalogue_number": "Krank 032",
+                "format": "LP split",
+                "edition": "black vinyl",
+                "manufacturer": "DMS LTD",
+                "track_count": 12,
+                "copies": 300
+            },
+            "image": "/img/releases/ufo.png",
+            "metadata_links": {
+                "label": "http://krank.netii.net",
+                "manufacturer": "https://discmanufacturingservices.com"
+            },
+            "links": [
+                {
+                    "label": "Bandcamp",
+                    "url": "https://ufo-cactusland.bandcamp.com"
+                }
+            ]
+        },
+        {
+            "id": "back-in-brown",
+            "title": "back in brown",
+            "metadata": {
+                "artists": [
+                    "Bronson Comet Lighter"
+                ],
+                "release_date": "2017-05-08",
+                "duration_ms": 1923000,
+                "label": "Bronson Recordings",
+                "catalogue_number": "Bro'10",
+                "format": "LP album",
+                "edition": "12\" black vinyl",
+                "manufacturer": "Eldorado Media",
+                "track_count": 8,
+                "copies": 300
+            },
+            "image": "/img/releases/back-in-brown.png",
+            "metadata_links": {
+                "label": "http://bronson.no",
+                "manufacturer": "http://eldorado-media.com"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://bronson.no"
+                }
+            ]
+        },
+        {
+            "id": "christers-blues",
+            "title": "Christers Blues",
+            "metadata": {
+                "artists": [
+                    "Desertör"
+                ],
+                "release_date": "2017-03-30",
+                "duration_ms": 419000,
+                "label": "Desertör",
+                "catalogue_number": "DES-SYV-1",
+                "format": "single",
+                "edition": "7\" red vinyl",
+                "manufacturer": "Eldorado Media",
+                "track_count": 2,
+                "copies": 100
+            },
+            "image": "/img/releases/christers-blues.png",
+            "metadata_links": {
+                "label": "https://facebook.com/desertornorge",
+                "manufacturer": "http://eldorado-media.com"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "https://facebook.com/desertornorge"
+                },
+                {
+                    "label": "Spotify",
+                    "url": "https://open.spotify.com/album/5hU6o0KhqlYAniePYh4d5w"
+                }
+            ]
+        },
+        {
+            "id": "gritzmann",
+            "title": "Gritzmann",
+            "metadata": {
+                "artists": [
+                    "Desertör"
+                ],
+                "release_date": "2017",
+                "duration_ms": 300000,
+                "label": "Desertör",
+                "format": "single",
+                "edition": "digital",
+                "manufacturer": "Eldorado Media",
+                "track_count": 1
+            },
+            "image": "/img/releases/gritzmann.png",
+            "metadata_links": {
+                "label": "https://facebook.com/desertornorge",
+                "manufacturer": "http://eldorado-media.com"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "https://facebook.com/desertornorge"
+                },
+                {
+                    "label": "Spotify",
+                    "url": "https://open.spotify.com/album/5QCPeB4we3309uRQrEfnB0?si=-SzH4Y6cTbyg2iaVnoJUkQ"
+                },
+                {
+                    "label": "YouTube",
+                    "url": "https://youtube.com/watch?v=x85gOqF19YQ"
+                }
+            ]
+        },
+        {
+            "id": "tired-old-girl",
+            "title": "Tired old girl",
+            "metadata": {
+                "artists": [
+                    "Howlin' of the Wolf"
+                ],
+                "release_date": "2017",
+                "duration_ms": 171000,
+                "label": "Dead Cool Records",
+                "format": "single",
+                "edition": "digital",
+                "track_count": 1
+            },
+            "image": "/img/releases/tired-old-girl.png",
+            "metadata_links": {
+                "label": "http://deadcool.no"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "https://facebook.com/howlinofthewolf"
+                },
+                {
+                    "label": "Spotify",
+                    "url": "https://open.spotify.com/album/0dQKtD9Wc7yIQVo8XQtc6e?si=Fs9kM0vvQiCF3f8kebNflw"
+                },
+                {
+                    "label": "YouTube",
+                    "url": "https://youtube.com/watch?v=CL0Dp8nhQ_I"
+                }
+            ]
+        },
+        {
+            "id": "sundays",
+            "title": "Sundays",
+            "metadata": {
+                "artists": [
+                    "Silentlab"
+                ],
+                "release_date": "2016-12-01",
+                "duration_ms": 1040000,
+                "label": "Fuzz Pop",
+                "catalogue_number": "FP-004-CD",
+                "format": "CD EP",
+                "edition": "5\" Digipak",
+                "manufacturer": "Eldorado Media",
+                "track_count": 5,
+                "copies": 500
+            },
+            "image": "/img/releases/sundays.png",
+            "metadata_links": {
+                "manufacturer": "http://eldorado-media.com"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "https://facebook.com/silentlab"
+                },
+                {
+                    "label": "SoundCloud",
+                    "url": "https://soundcloud.com/silentlab"
+                }
+            ]
+        },
+        {
+            "id": "please-dont-listen",
+            "title": "Please Don't Listen\" c/w \"The Caretaker",
+            "metadata": {
+                "artists": [
+                    "Howlin' of the Wolf"
+                ],
+                "release_date": "2016-11-25",
+                "duration_ms": 462000,
+                "label": "Dead Cool Records",
+                "catalogue_number": "DC-010",
+                "format": "7\" single",
+                "edition": "black vinyl",
+                "manufacturer": "Eldorado Media",
+                "track_count": 2,
+                "copies": 300
+            },
+            "image": "/img/releases/please-dont-listen.png",
+            "metadata_links": {
+                "label": "http://deadcool.no",
+                "manufacturer": "http://eldorado-media.com"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "https://howlinofthewolf.com"
+                }
+            ]
+        },
+        {
+            "id": "tell-me-how-it-feels",
+            "title": "Tell Me How It Feels",
+            "metadata": {
+                "artists": [
+                    "The Sky's Gone Out"
+                ],
+                "release_date": "2016-08-01",
+                "duration_ms": 788000,
+                "label": "Velvet Elektra",
+                "catalogue_number": "VE-0002-DI",
+                "format": "maxi-single",
+                "edition": "digital",
+                "track_count": 3
+            },
+            "image": "/img/releases/tell-me-how-it-feels.png",
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "https://facebook.com/TheSkysGoneOutNorway"
+                },
+                {
+                    "label": "Spotify",
+                    "url": "https://open.spotify.com/album/5W4vZdUsoTJVggM40kBK7h"
+                }
+            ]
+        },
+        {
+            "id": "prunkd-2015",
+            "title": "Prunk'd 2015",
+            "metadata": {
+                "artists": [
+                    "Prunk Möbel"
+                ],
+                "release_date": "2015-12-25",
+                "duration_ms": 3702000,
+                "label": "Hovering Records",
+                "catalogue_number": "OQZ 002",
+                "format": "album",
+                "edition": "digital",
+                "track_count": 10
+            },
+            "image": "/img/releases/prunkd-2015.png",
+            "metadata_links": {
+                "label": "http://hoveringrec.com"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://prunkmobel.com"
+                },
+                {
+                    "label": "SoundCloud",
+                    "url": "https://soundcloud.com/prunk-mobel/sets/prunk-remixed_15"
+                }
+            ]
+        },
+        {
+            "id": "desertor",
+            "title": "Desertör Vol. 1",
+            "metadata": {
+                "artists": [
+                    "Desertör"
+                ],
+                "release_date": "2015-06-16",
+                "duration_ms": 2460000,
+                "label": "Desertör",
+                "catalogue_number": "DES1",
+                "format": "LP album",
+                "edition": "black vinyl",
+                "manufacturer": "Eldorado Media",
+                "track_count": 8,
+                "copies": 175
+            },
+            "image": "/img/releases/desertor.png",
+            "metadata_links": {
+                "label": "https://facebook.com/desertornorge",
+                "manufacturer": "http://eldorado-media.com"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "https://facebook.com/desertornorge"
+                }
+            ]
+        },
+        {
+            "id": "backfire-madness-brown",
+            "title": "Backfire madness",
+            "metadata": {
+                "artists": [
+                    "Howlin' of the Wolf"
+                ],
+                "release_date": "2015-02-02",
+                "label": "Dead Cool Records",
+                "catalogue_number": "DC-009",
+                "format": "LP album",
+                "edition": "brown vinyl",
+                "manufacturer": "Gramofonove / Tunes Printing",
+                "track_count": 14,
+                "copies": 200
+            },
+            "image": "/img/releases/backfire-madness-brown.png",
+            "metadata_links": {
+                "label": "http://deadcool.no"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://howlinofthewolf.com"
+                }
+            ]
+        },
+        {
+            "id": "backfire-madness-splat",
+            "title": "Backfire madness",
+            "metadata": {
+                "artists": [
+                    "Howlin' of the Wolf"
+                ],
+                "release_date": "2015-02-02",
+                "label": "Dead Cool Records",
+                "catalogue_number": "DC-009",
+                "format": "LP album",
+                "edition": "brown vinyl white splat",
+                "manufacturer": "Gramofonove / Tunes Printing",
+                "track_count": 14,
+                "copies": 50
+            },
+            "image": "/img/releases/backfire-madness-splat.png",
+            "metadata_links": {
+                "label": "http://deadcool.no"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://howlinofthewolf.com"
+                }
+            ]
+        },
+        {
+            "id": "backfire-madness",
+            "title": "Backfire madness",
+            "metadata": {
+                "artists": [
+                    "Howlin' of the Wolf"
+                ],
+                "release_date": "2013",
+                "duration_ms": 2200000,
+                "label": "Break-A-Leg",
+                "catalogue_number": "BAL-002",
+                "format": "CD album",
+                "edition": "5\" Digipak",
+                "manufacturer": "BOD Group / Tunes Printing",
+                "track_count": 12,
+                "copies": 500
+            },
+            "image": "/img/releases/backfire-madness.png",
+            "metadata_links": {
+                "label": "http://en.wikipedia.org/wiki/Dead_Cool_Records"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://howlinofthewolf.com"
+                }
+            ]
+        },
+        {
+            "id": "live-on-the-spot",
+            "title": "Live on the Spot",
+            "metadata": {
+                "artists": [
+                    "v/a"
+                ],
+                "release_date": "2010",
+                "label": "Break-A-Leg",
+                "catalogue_number": "BAL-001",
+                "format": "CD album",
+                "edition": "5\" jewel case",
+                "manufacturer": "Dicentia",
+                "track_count": 21,
+                "copies": 500
+            },
+            "image": "/img/releases/live-on-the-spot.png",
+            "metadata_links": {
+                "label": "http://wikipedia.org/wiki/Dead_Cool_Records",
+                "manufacturer": "http://dicentia.com/"
+            }
+        },
+        {
+            "id": "meant-to-be-shared",
+            "title": "Meant To Be Shared",
+            "metadata": {
+                "artists": [
+                    "Epileptic Passion"
+                ],
+                "release_date": "2008",
+                "label": "Fuzz Pop",
+                "catalogue_number": "FP-002",
+                "format": "CD EP",
+                "edition": "5\" jewel case",
+                "track_count": 3
+            },
+            "image": "/img/releases/meant-to-be-shared.png",
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://discogs.com/artist/3549755-Epileptic-Passion"
+                }
+            ]
+        },
+        {
+            "id": "gulstad-live",
+            "title": "Gulstad Live",
+            "metadata": {
+                "artists": [
+                    "Bronson Comet Lighter"
+                ],
+                "release_date": "2006",
+                "duration_ms": 1162000,
+                "label": "Bronson Recordings",
+                "catalogue_number": "Bro'7",
+                "format": "LP album",
+                "edition": "black vinyl",
+                "manufacturer": "Gramofonove",
+                "track_count": 10,
+                "copies": 250
+            },
+            "image": "/img/releases/gulstad-live.png",
+            "metadata_links": {
+                "label": "http://bronson.no",
+                "manufacturer": "http://gzmedia.eu"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://bronson.no"
+                }
+            ]
+        },
+        {
+            "id": "hazard-blues",
+            "title": "Hazard Blues",
+            "metadata": {
+                "artists": [
+                    "obscuro"
+                ],
+                "release_date": "2005",
+                "duration_ms": 367000,
+                "label": "Bronson Recordings",
+                "catalogue_number": "Bro'9",
+                "format": "7\" single",
+                "edition": "black vinyl",
+                "manufacturer": "Gramofonove",
+                "track_count": 2,
+                "copies": 200
+            },
+            "image": "/img/releases/hazard-blues.png",
+            "metadata_links": {
+                "label": "http://bronson.no",
+                "manufacturer": "http://gzmedia.eu"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://bronson.no"
+                }
+            ]
+        },
+        {
+            "id": "mythical-moments-ep",
+            "title": "Mythical Moments EP",
+            "metadata": {
+                "artists": [
+                    "The Hidden Sect"
+                ],
+                "release_date": "2005",
+                "label": "Dead Cool Records",
+                "catalogue_number": "DC-008",
+                "format": "7\" EP",
+                "edition": "black vinyl",
+                "manufacturer": "Gramofonove",
+                "track_count": 4,
+                "copies": 200
+            },
+            "image": "/img/releases/mythical-moments-ep.png",
+            "metadata_links": {
+                "label": "http://deadcool.no",
+                "manufacturer": "http://gzmedia.eu"
+            }
+        },
+        {
+            "id": "dollinger-dillinger-duo",
+            "title": "Dollinger / Dillinger duo",
+            "metadata": {
+                "artists": [
+                    "Dollinger / Dillinger duo"
+                ],
+                "release_date": "2003",
+                "label": "Bronson Recordings",
+                "catalogue_number": "Bro'8",
+                "format": "7\" EP",
+                "edition": "black vinyl",
+                "manufacturer": "Gramofonove",
+                "track_count": 5,
+                "copies": 200
+            },
+            "image": "/img/releases/dollinger-dillinger-duo.png",
+            "metadata_links": {
+                "label": "http://bronson.no",
+                "manufacturer": "http://gzmedia.eu"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://bronson.no"
+                }
+            ]
+        },
+        {
+            "id": "wipes-the-pipes",
+            "title": "wipes the pipes",
+            "metadata": {
+                "artists": [
+                    "Bronson Comet Lighter"
+                ],
+                "release_date": "2003",
+                "label": "Bronson Recordings",
+                "catalogue_number": "Bro'2",
+                "format": "7\" EP",
+                "edition": "black vinyl",
+                "manufacturer": "Gramofonove",
+                "track_count": 2,
+                "copies": 400
+            },
+            "image": "/img/releases/wipes-the-pipes.png",
+            "metadata_links": {
+                "label": "http://bronson.no",
+                "manufacturer": "http://gzmedia.eu"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://bronson.no"
+                }
+            ]
+        },
+        {
+            "id": "wipes-the-pipes-transparent",
+            "title": "wipes the pipes",
+            "metadata": {
+                "artists": [
+                    "Bronson Comet Lighter"
+                ],
+                "release_date": "2003",
+                "label": "Bronson Recordings",
+                "catalogue_number": "Bro'2",
+                "format": "7\" EP",
+                "edition": "transparent vinyl",
+                "manufacturer": "Gramofonove",
+                "track_count": 2,
+                "copies": 100
+            },
+            "image": "/img/releases/wipes-the-pipes-transparent.png",
+            "metadata_links": {
+                "label": "http://bronson.no",
+                "manufacturer": "http://gzmedia.eu"
+            },
+            "links": [
+                {
+                    "label": "Artist website",
+                    "url": "http://bronson.no"
+                }
+            ]
+        }
+    ]
+}

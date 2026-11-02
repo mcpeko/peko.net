@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "why-hip-hop-doesnt-suck-in-22",
+      "title": "Why Hip Hop Doesn't Suck In '22",
+      "url": "https://open.spotify.com/track/5Eg94VNyYiU3ivuQcU80gi",
+      "image": "/img/lofi/why-hip-hop-doesn-t-suck-in-22.jpg",
+      "metadata": {
+        "artists": ["MC Peko"],
+        "release_date": "2022-12-10",
+        "duration_ms": 112941,
+        "label": "Fuzz Pop",
+        "bpm": 80,
+        "key": "G"
+      },
+      "sources": [
+        {"label": "Spotify", "url": "https://open.spotify.com/track/5Eg94VNyYiU3ivuQcU80gi", "fields": ["artists", "release_date", "duration_ms", "label"]},
+        {"label": "Release notes", "url": "/releases_lofi/why_hip_hop_doesnt_suck_in_22.txt", "fields": ["bpm", "key"]}
+      ]
+    },
+    {
+      "id": "moonlight-shadow",
+      "title": "Moonlight Shadow",
+      "url": "https://open.spotify.com/track/2JpnBz9LC2ifpog9IJWnVj",
+      "image": "/img/lofi/moonlight-shadow.jpg",
+      "metadata": {
+        "artists": ["MC Peko"],
+        "release_date": "2022-06-16",
+        "duration_ms": 130500,
+        "label": "Fuzz Pop",
+        "bpm": 80,
+        "key": "C#"
+      },
+      "sources": [
+        {"label": "Spotify", "url": "https://open.spotify.com/track/2JpnBz9LC2ifpog9IJWnVj", "fields": ["artists", "release_date", "duration_ms", "label"]},
+        {"label": "Release notes", "url": "/releases_lofi/moonlight_shadow.txt", "fields": ["bpm", "key"]}
+      ]
+    },
+    {
+      "id": "mumble-rap",
+      "title": "Mumble Rap",
+      "url": "https://open.spotify.com/track/5t49D27DcVb3pePDYiv7Uc",
+      "image": "/img/lofi/mumble-rap.jpg",
+      "metadata": {
+        "artists": ["MC Peko"],
+        "release_date": "2022-01-27",
+        "duration_ms": 131011,
+        "label": "Fuzz Pop",
+        "bpm": 79,
+        "key": "Dm"
+      },
+      "sources": [
+        {"label": "Spotify", "url": "https://open.spotify.com/track/5t49D27DcVb3pePDYiv7Uc", "fields": ["artists", "release_date", "duration_ms", "label"]},
+        {"label": "Release notes", "url": "/releases_lofi/mumble_rap.txt", "fields": ["bpm", "key"]}
+      ]
+    },
+    {
+      "id": "cannabis",
+      "title": "Cannabis",
+      "url": "https://open.spotify.com/track/3u73afvG3U4OO2XS8lhm9o",
+      "image": "/img/lofi/cannabis.jpg",
+      "metadata": {"artists": ["MC Peko"], "release_date": "2021-08-23", "duration_ms": 123000, "label": "Fuzz Pop"},
+      "sources": [
+        {"label": "Spotify", "url": "https://open.spotify.com/track/3u73afvG3U4OO2XS8lhm9o", "fields": ["artists", "release_date", "duration_ms", "label"]}
+      ]
+    },
+    {
+      "id": "bitcoin",
+      "title": "Bitcoin",
+      "url": "https://open.spotify.com/track/5I4HOBKOwglqjSZnV1E23f",
+      "image": "/img/lofi/bitcoin.jpg",
+      "metadata": {"artists": ["MC Peko"], "release_date": "2021-08-07", "duration_ms": 137142, "label": "Fuzz Pop"},
+      "sources": [
+        {"label": "Spotify", "url": "https://open.spotify.com/track/5I4HOBKOwglqjSZnV1E23f", "fields": ["artists", "release_date", "duration_ms", "label"]}
+      ]
+    },
+    {
+      "id": "chili",
+      "title": "Chili",
+      "url": "https://open.spotify.com/track/1ZPKv3e0jepl4QdTRgtcru",
+      "image": "/img/lofi/chili.jpg",
+      "metadata": {"artists": ["MC Peko"], "release_date": "2021-08-04", "duration_ms": 117461, "label": "Fuzz Pop"},
+      "sources": [
+        {"label": "Spotify", "url": "https://open.spotify.com/track/1ZPKv3e0jepl4QdTRgtcru", "fields": ["artists", "release_date", "duration_ms", "label"]}
+      ]
+    },
+    {
+      "id": "dreams",
+      "title": "Dreams",
+      "url": "https://open.spotify.com/track/6j0lW5mOGFY6hLXOOi7lwV",
+      "image": "/img/lofi/dreams.jpg",
+      "metadata": {
+        "artists": ["MC Peko"],
+        "release_date": "2021-07-10",
+        "duration_ms": 113142,
+        "label": "Fuzz Pop",
+        "bpm": 70,
+        "key": "G"
+      },
+      "sources": [
+        {"label": "Spotify", "url": "https://open.spotify.com/track/6j0lW5mOGFY6hLXOOi7lwV", "fields": ["artists", "release_date", "duration_ms", "label"]},
+        {"label": "Release notes", "url": "/releases_lofi/dreams.txt", "fields": ["bpm", "key"]}
+      ]
+    }
+  ]
+}

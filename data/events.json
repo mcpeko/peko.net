@@ -1,0 +1,844 @@
+{
+    "schema_version": 1,
+    "entries": [
+        {
+            "id": "dj-peko-2026-11-25",
+            "title": "DJ Peko",
+            "url": "https://facebook.com/events/2295174697994163",
+            "image": "/events_photos/upcoming-2026-11-25.png",
+            "metadata": {
+                "event_date": "2026-11-25",
+                "event_name": "DJ Set, lofi hip hop",
+                "venue": "Trall Bar & Kulturscene",
+                "city": "Oslo"
+            },
+            "sources": [
+                {
+                    "label": "Event notes",
+                    "url": "/events/25-11-2026_01.txt",
+                    "fields": [
+                        "event_date",
+                        "venue",
+                        "city"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "archive-2018-07-27",
+            "title": "Silentlab",
+            "metadata": {
+                "artists": [
+                    "Silentlab"
+                ],
+                "event_date": "2018-07-27",
+                "event_name": "Greenhouse Økobar på Månefestivalen 2018",
+                "location": "Månefestivalen, Fredrikstad, Norway"
+            },
+            "description": "concert",
+            "url": "https://facebook.com/events/483920598735115",
+            "image": "/events_photos/archive-2018-07-27.png",
+            "links": [
+                {
+                    "label": "Silentlab",
+                    "url": "http://silentlab.net"
+                },
+                {
+                    "label": "Greenhouse Økobar på Månefestivalen 2018",
+                    "url": "https://facebook.com/events/464038963954670"
+                },
+                {
+                    "label": "Månefestivalen",
+                    "url": "https://facebook.com/maanefestivalen"
+                }
+            ]
+        },
+        {
+            "id": "archive-2018-07-07",
+            "title": "DJ Peko",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2018-07-07",
+                "event_name": "Volunteers kick off party",
+                "location": "Tøyhuset, Månefestivalen, Fredrikstad, Norway"
+            },
+            "description": "DJ",
+            "links": [
+                {
+                    "label": "DJ Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Månefestivalen",
+                    "url": "https://facebook.com/maanefestivalen"
+                }
+            ]
+        },
+        {
+            "id": "archive-2018-06-02",
+            "title": "Silentlab",
+            "metadata": {
+                "artists": [
+                    "Silentlab"
+                ],
+                "event_date": "2018-06-02",
+                "location": "Quarteret Café, Fredrikstad, Norway"
+            },
+            "description": "concert",
+            "url": "https://facebook.com/events/201797500620612",
+            "image": "/events_photos/archive-2018-06-02.png",
+            "links": [
+                {
+                    "label": "Silentlab",
+                    "url": "http://silentlab.net"
+                },
+                {
+                    "label": "Quarteret Café",
+                    "url": "https://facebook.com/Quarteret"
+                }
+            ]
+        },
+        {
+            "id": "archive-2018-01-12",
+            "title": "Silentlab",
+            "metadata": {
+                "artists": [
+                    "Silentlab"
+                ],
+                "event_date": "2018-01-12",
+                "location": "Quarteret Café, Fredrikstad, Norway"
+            },
+            "description": "concert",
+            "url": "https://facebook.com/events/2430003700559024",
+            "links": [
+                {
+                    "label": "Silentlab",
+                    "url": "http://silentlab.net"
+                },
+                {
+                    "label": "Quarteret Café",
+                    "url": "https://facebook.com/Quarteret"
+                }
+            ]
+        },
+        {
+            "id": "archive-2017-07-23",
+            "title": "DJ Peko",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2017-07-23",
+                "event_name": "Greenhouse Økobar på Månefestivalen 2017",
+                "location": "Månefestivalen, Fredrikstad, Norway"
+            },
+            "description": "DJ",
+            "url": "https://facebook.com/events/464038963954670",
+            "links": [
+                {
+                    "label": "DJ Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Månefestivalen",
+                    "url": "https://facebook.com/maanefestivalen"
+                }
+            ]
+        },
+        {
+            "id": "archive-2017-07-22",
+            "title": "DJ Peko",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2017-07-22",
+                "event_name": "Greenhouse Økobar på Månefestivalen 2017",
+                "location": "Månefestivalen, Fredrikstad, Norway"
+            },
+            "description": "DJ",
+            "url": "https://facebook.com/events/464038963954670",
+            "links": [
+                {
+                    "label": "DJ Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Månefestivalen",
+                    "url": "https://facebook.com/maanefestivalen"
+                }
+            ]
+        },
+        {
+            "id": "archive-2017-07-21",
+            "title": "DJ Peko",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2017-07-21",
+                "event_name": "Greenhouse Økobar på Månefestivalen 2017",
+                "location": "Månefestivalen, Fredrikstad, Norway"
+            },
+            "description": "DJ",
+            "url": "https://facebook.com/events/464038963954670",
+            "links": [
+                {
+                    "label": "DJ Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Månefestivalen",
+                    "url": "https://facebook.com/maanefestivalen"
+                }
+            ]
+        },
+        {
+            "id": "archive-2017-07-01",
+            "title": "Silentlab",
+            "metadata": {
+                "artists": [
+                    "Silentlab"
+                ],
+                "event_date": "2017-07-01",
+                "event_name": "Kunst og Kultur til Fylket exhibition opening",
+                "location": "Nedre Magasin, Fredriksten Festning, Halden, Norway"
+            },
+            "description": "concert",
+            "url": "https://facebook.com/events/1329580043764571",
+            "links": [
+                {
+                    "label": "Silentlab",
+                    "url": "http://silentlab.net"
+                },
+                {
+                    "label": "Kunst og Kultur til Fylket",
+                    "url": "https://facebook.com/groups/1425799577482701"
+                }
+            ]
+        },
+        {
+            "id": "archive-2017-04-22",
+            "title": "DJ Peko",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2017-04-22",
+                "event_name": "Åpen Skole 26 years reunion Private party",
+                "location": "Fjellheim Samfunnshus, Kråkerøy,  Fredrikstad, Norway"
+            },
+            "description": "DJ set",
+            "url": "https://facebook.com/events/176427232807996",
+            "links": [
+                {
+                    "label": "DJ Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Fjellheim Samfunnshus",
+                    "url": "http://folketshus.no/ostfold/fjellheim-samfunnshus"
+                }
+            ]
+        },
+        {
+            "id": "archive-2017-03-04",
+            "title": "Arctica / Antarctica",
+            "metadata": {
+                "artists": [
+                    "Arctica / Antarctica"
+                ],
+                "event_date": "2017-03-04",
+                "event_name": "Vinterriss",
+                "location": "Blå Grotte, Fredrikstad, Norway"
+            },
+            "description": "concert",
+            "url": "https://facebook.com/events/169508156874797",
+            "image": "/events_photos/archive-2017-03-04.png",
+            "links": [
+                {
+                    "label": "Arctica / Antarctica",
+                    "url": "https://facebook.com/arcticaantarctica"
+                },
+                {
+                    "label": "Blå Grotte",
+                    "url": "http://kulturhusene.no"
+                }
+            ]
+        },
+        {
+            "id": "archive-2016-12-03",
+            "title": "DJ Peko",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2016-12-03",
+                "event_name": "Morgan Kilronan 40 years b-day Private party",
+                "location": "Manstad Vel, Fredrikstad, Norway"
+            },
+            "description": "DJ set",
+            "url": "https://facebook.com/events/1748764745413028",
+            "links": [
+                {
+                    "label": "DJ Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Manstad Vel",
+                    "url": "https://www.facebook.com/pages/Manstad-Vel/180591725317093"
+                }
+            ]
+        },
+        {
+            "id": "archive-2016-10-29",
+            "title": "Arctica / Antarctica",
+            "metadata": {
+                "artists": [
+                    "Arctica / Antarctica"
+                ],
+                "event_date": "2016-10-29",
+                "event_name": "So Fxxking Contemporary",
+                "location": "Hydrogenfabrikken, Fredrikstad, Norway"
+            },
+            "description": "concert",
+            "url": "https://facebook.com/events/194231630976522",
+            "image": "/events_photos/archive-2016-10-29.png",
+            "links": [
+                {
+                    "label": "Arctica / Antarctica",
+                    "url": "https://facebook.com/arcticaantarctica"
+                },
+                {
+                    "label": "Hydrogenfabrikken",
+                    "url": "https://facebook.com/hydrogenfabrikken"
+                }
+            ]
+        },
+        {
+            "id": "archive-2016-09-24",
+            "title": "DJ Peko",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2016-09-24",
+                "event_name": "Einar Lie b-day Private party",
+                "location": "Fjellheim Samfunnshus, Kråkerøy,  Fredrikstad, Norway"
+            },
+            "description": "DJ set",
+            "links": [
+                {
+                    "label": "DJ Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Fjellheim Samfunnshus",
+                    "url": "http://folketshus.no/ostfold/fjellheim-samfunnshus"
+                }
+            ]
+        },
+        {
+            "id": "archive-2016-08-20",
+            "title": "Howlin' of the Wolf",
+            "metadata": {
+                "artists": [
+                    "Howlin' of the Wolf"
+                ],
+                "event_date": "2016-08-20",
+                "event_name": "Ruudswood",
+                "location": "Ronny Stenersen's garden, Gressvik, Fredrikstad, Norway"
+            },
+            "description": "concert",
+            "url": "https://facebook.com/events/803075056496769",
+            "image": "/events_photos/archive-2016-08-20.png",
+            "links": [
+                {
+                    "label": "Howlin of the Wolf",
+                    "url": "http://howlinofthewolf.com"
+                }
+            ]
+        },
+        {
+            "id": "archive-2016-05-21",
+            "title": "Arctica / Antarctica",
+            "metadata": {
+                "artists": [
+                    "Arctica / Antarctica"
+                ],
+                "event_date": "2016-05-21",
+                "event_name": "FMV arr.",
+                "location": "Cafeen, St. Crois huset, Fredrikstad, Norway"
+            },
+            "description": "concert",
+            "url": "https://facebook.com/events/1112022928857531",
+            "image": "/events_photos/archive-2016-05-21.png",
+            "links": [
+                {
+                    "label": "Arctica / Antarctica",
+                    "url": "https://facebook.com/arcticaantarctica"
+                },
+                {
+                    "label": "St. Crois huset",
+                    "url": "http://kulturhusene.no"
+                }
+            ]
+        },
+        {
+            "id": "archive-2016-04-23",
+            "title": "MC Peko + DJ Peko",
+            "metadata": {
+                "artists": [
+                    "MC Peko + DJ Peko"
+                ],
+                "event_date": "2016-04-23",
+                "event_name": "Greenhouse 2 ÅR",
+                "location": "Greenhouse, Fredrikstad, Norway"
+            },
+            "description": "Solo acoustic + DJ",
+            "url": "https://facebook.com/events/1759838717584437",
+            "image": "/events_photos/archive-2016-04-23.png",
+            "links": [
+                {
+                    "label": "MC Peko + DJ Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Greenhouse 2 ÅR",
+                    "url": "https://www.facebook.com/events/1759838717584437"
+                },
+                {
+                    "label": "Greenhouse",
+                    "url": "https://facebook.com/greenhouseokomat"
+                }
+            ]
+        },
+        {
+            "id": "archive-2016-04-22",
+            "title": "DJ Peko",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2016-04-22",
+                "event_name": "Greenhouse 2 ÅR",
+                "location": "Greenhouse, Fredrikstad, Norway"
+            },
+            "description": "DJ before and after headliner",
+            "url": "https://facebook.com/events/1759838717584437",
+            "image": "/events_photos/archive-2016-04-22.png",
+            "links": [
+                {
+                    "label": "DJ Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Greenhouse 2 ÅR",
+                    "url": "https://www.facebook.com/events/1759838717584437"
+                },
+                {
+                    "label": "Greenhouse",
+                    "url": "https://facebook.com/greenhouseokomat"
+                }
+            ]
+        },
+        {
+            "id": "archive-2015-11-07",
+            "title": "Arctica / Antarctica",
+            "metadata": {
+                "artists": [
+                    "Arctica / Antarctica"
+                ],
+                "event_date": "2015-11-07",
+                "event_name": "The SOUND Of Music",
+                "location": "Blå Grotte, Fredrikstad, Norway"
+            },
+            "description": "polar ambient guest: Jonas Qvale",
+            "url": "https://facebook.com/events/498578076969106",
+            "links": [
+                {
+                    "label": "Arctica / Antarctica",
+                    "url": "https://facebook.com/arcticaantarctica"
+                },
+                {
+                    "label": "Blå Grotte",
+                    "url": "http://kulturhusene.no"
+                }
+            ]
+        },
+        {
+            "id": "archive-2015-10-03",
+            "title": "DJ Peko",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2015-10-03",
+                "event_name": "Funky Disco House Aften",
+                "location": "Greenhouse, Fredrikstad, Norway"
+            },
+            "description": "in-store event",
+            "url": "https://facebook.com/events/975079969205484",
+            "links": [
+                {
+                    "label": "DJ Peko",
+                    "url": "http://peko.net"
+                }
+            ]
+        },
+        {
+            "id": "archive-2015-09-04",
+            "title": "Howlin' of the Wolf",
+            "metadata": {
+                "artists": [
+                    "Howlin' of the Wolf"
+                ],
+                "event_date": "2015-09-04",
+                "event_name": "Glenn Glitter's Savage Beat Club",
+                "location": "Bad Times, Fredrikstad, Norway"
+            },
+            "description": "concert + El Mapache",
+            "url": "https://facebook.com/events/1469280483391660",
+            "image": "/events_photos/archive-2015-09-04.png",
+            "links": [
+                {
+                    "label": "Howlin of the Wolf",
+                    "url": "http://howlinofthewolf.com"
+                },
+                {
+                    "label": "Bad Times",
+                    "url": "https://facebook.com/pages/Bad-Times/600929113353487"
+                }
+            ]
+        },
+        {
+            "id": "archive-2015-06-14",
+            "title": "Howlin' of the Wolf",
+            "metadata": {
+                "artists": [
+                    "Howlin' of the Wolf"
+                ],
+                "event_date": "2015-06-14",
+                "location": "Fjeldberg Marina, Fredrikstad, Norway"
+            },
+            "description": "concert + jam",
+            "url": "https://facebook.com/events/1610508892523364",
+            "image": "/events_photos/archive-2015-06-14.png",
+            "links": [
+                {
+                    "label": "Howlin of the Wolf",
+                    "url": "http://howlinofthewolf.com"
+                },
+                {
+                    "label": "Fjeldberg Marina",
+                    "url": "https://facebook.com/groups/144961702203"
+                }
+            ]
+        },
+        {
+            "id": "archive-2015-03-07",
+            "title": "MC Peko",
+            "description": "MC Peko + jam at Fjeldberg Marina, Fredrikstad, Saturday 07-03-2015",
+            "metadata": {
+                "artists": [
+                    "MC Peko"
+                ],
+                "event_date": "2015-03-07"
+            },
+            "image": "/events_photos/archive-2015-03-07.png",
+            "links": [
+                {
+                    "label": "Fjeldberg Marina",
+                    "url": "https://facebook.com/groups/144961702203"
+                }
+            ]
+        },
+        {
+            "id": "archive-2015-01-03",
+            "title": "DJ Peko",
+            "description": "DJ Peko at Festival voulenteers party, Gamlebyen Kulturhus, Fredrikstad, Saturday 03-01-2015",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2015-01-03"
+            },
+            "links": [
+                {
+                    "label": "Gamlebyen Kulturhus",
+                    "url": "http://maanen.no"
+                }
+            ]
+        },
+        {
+            "id": "archive-2014-12-26",
+            "title": "DJ Peko",
+            "description": "DJ Peko at Gamlebyen Kulturhus, Fredrikstad, Friday 26-12-2014",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2014-12-26"
+            },
+            "image": "/events_photos/archive-2014-12-26.png",
+            "links": [
+                {
+                    "label": "Gamlebyen Kulturhus",
+                    "url": "http://maanen.no"
+                }
+            ]
+        },
+        {
+            "id": "archive-2014-12-13",
+            "title": "DJ Peko",
+            "description": "DJ Peko at Einar's Christmas BBQ, Fredrikstad, Saturday 13-12-2014",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2014-12-13"
+            }
+        },
+        {
+            "id": "archive-2014-07-26",
+            "title": "MC Peko",
+            "description": "MC Peko Siljes' backyard / Svalbardhuset, Fredrikstad, Saturday 26-07-2014",
+            "metadata": {
+                "artists": [
+                    "MC Peko"
+                ],
+                "event_date": "2014-07-26"
+            },
+            "image": "/events_photos/archive-2014-07-26.png"
+        },
+        {
+            "id": "archive-2014-07-13",
+            "title": "MC Peko",
+            "metadata": {
+                "artists": [
+                    "MC Peko"
+                ],
+                "event_date": "2014-07-13",
+                "event_name": "Nebbet / Tall Ship Race event",
+                "location": "Kafè Nyt, Ø˜KS, Fredrikstad, Norway"
+            },
+            "description": "solo acoustic concert + Origami Antarktika, Prunk Møbel, Freddy Fredrikstad",
+            "url": "https://facebook.com/events/266676343522973",
+            "image": "/events_photos/archive-2014-07-13.png",
+            "links": [
+                {
+                    "label": "MC Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Nebbet",
+                    "url": "http://nebbet.no"
+                },
+                {
+                    "label": "Tall Ship Race",
+                    "url": "http://tallshipsfredrikstad.no"
+                },
+                {
+                    "label": "Kafè Nyt, Ø˜KS",
+                    "url": "http://ostfold-kunstnersenter.no"
+                }
+            ]
+        },
+        {
+            "id": "archive-2014-06-07",
+            "title": "MC Peko",
+            "description": "MC Peko, LoveFuel, Magenta, Fredrikstad, Saturday 07-06-2014",
+            "metadata": {
+                "artists": [
+                    "MC Peko"
+                ],
+                "event_date": "2014-06-07"
+            },
+            "image": "/events_photos/archive-2014-06-07.png",
+            "links": [
+                {
+                    "label": "Magenta",
+                    "url": "https://facebook.com/groups/cafemagenta"
+                }
+            ]
+        },
+        {
+            "id": "archive-2014-01-13",
+            "title": "MC Ubåt and DJ Peko",
+            "metadata": {
+                "artists": [
+                    "MC Ubåt and DJ Peko"
+                ],
+                "event_date": "2014-01-13",
+                "event_name": "birthday party for Vanja",
+                "location": "Lille Cambus, Fredrikstad, Norway"
+            },
+            "description": "DJ hip hop",
+            "links": [
+                {
+                    "label": "DJ Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Lille Cambus",
+                    "url": "https://facebook.com/pages/Lille-Cambus/1414628405441941"
+                }
+            ]
+        },
+        {
+            "id": "archive-2013-12-26",
+            "title": "DJ Peko",
+            "metadata": {
+                "artists": [
+                    "DJ Peko"
+                ],
+                "event_date": "2013-12-26",
+                "event_name": "Månen: The Phantoms concert",
+                "location": "Teglhuset, Gamlebyen, Fredrikstad, Norway"
+            },
+            "description": "DJ before and after the band",
+            "url": "https://facebook.com/events/557649727663786",
+            "image": "/events_photos/archive-2013-12-26.png",
+            "links": [
+                {
+                    "label": "DJ Peko",
+                    "url": "http://peko.net"
+                }
+            ]
+        },
+        {
+            "id": "archive-2013-12-13",
+            "title": "MC Peko + DJ Peko",
+            "metadata": {
+                "artists": [
+                    "MC Peko + DJ Peko"
+                ],
+                "event_date": "2013-12-13",
+                "event_name": "Kunstresepsjonen",
+                "location": "Blå Grotte, Fredrikstad, Norway"
+            },
+            "description": "solo acoustic concert + DJ",
+            "url": "https://facebook.com/events/1392644127647661",
+            "image": "/events_photos/archive-2013-12-13.png",
+            "links": [
+                {
+                    "label": "MC Peko + DJ Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Kunstresepsjonen",
+                    "url": "http://www.kunstresepsjonen.com"
+                },
+                {
+                    "label": "Blå Grotte",
+                    "url": "http://kulturhusene.no"
+                }
+            ]
+        },
+        {
+            "id": "archive-2013-07-06",
+            "title": "MC Peko",
+            "metadata": {
+                "artists": [
+                    "MC Peko"
+                ],
+                "event_date": "2013-07-06",
+                "event_name": "Sommerfest",
+                "location": "Fjeldberg Marina, Fredrikstad, Norway"
+            },
+            "description": "solo acoustic concert",
+            "url": "https://facebook.com/events/532468436810882",
+            "image": "/events_photos/archive-2013-07-06.png",
+            "links": [
+                {
+                    "label": "MC Peko",
+                    "url": "http://peko.net"
+                }
+            ]
+        },
+        {
+            "id": "archive-2008-09-25",
+            "title": "MC Peko",
+            "metadata": {
+                "artists": [
+                    "MC Peko"
+                ],
+                "event_date": "2008-09-25",
+                "event_name": "The SOUND Of Music",
+                "location": "Blå Grotte, Fredrikstad, Norway"
+            },
+            "description": "solo acoustic concert",
+            "links": [
+                {
+                    "label": "MC Peko",
+                    "url": "http://peko.net"
+                },
+                {
+                    "label": "Blå Grotte",
+                    "url": "http://kulturhusene.no"
+                }
+            ]
+        },
+        {
+            "id": "archive-2004-05-30",
+            "title": "v/a",
+            "metadata": {
+                "artists": [
+                    "v/a"
+                ],
+                "event_date": "2004-05-30",
+                "event_name": "Halvmånefestivalen",
+                "location": "Tung Pedal, FMV, Kråkerøy, Fredrikstad, Norway"
+            },
+            "description": "party supporting Månefestivalen"
+        },
+        {
+            "id": "archive-2004-05-29",
+            "title": "v/a",
+            "metadata": {
+                "artists": [
+                    "v/a"
+                ],
+                "event_date": "2004-05-29",
+                "event_name": "Halvmånefestivalen",
+                "location": "Tung Pedal, FMV, Kråkerøy, Fredrikstad, Norway"
+            },
+            "description": "party supporting Månefestivalen"
+        },
+        {
+            "id": "archive-2004-05-28",
+            "title": "v/a",
+            "metadata": {
+                "artists": [
+                    "v/a"
+                ],
+                "event_date": "2004-05-28",
+                "event_name": "Halvmånefestivalen",
+                "location": "Tung Pedal, FMV, Kråkerøy, Fredrikstad, Norway"
+            },
+            "description": "party supporting Månefestivalen"
+        },
+        {
+            "id": "archive-2001-09-28",
+            "title": "Lasse Marhaug, Tore H. Bøe, Nordic Miracle, Ole Herman Melby, Kobi, Two Shot Sons, Andreas Meland, MC Peko, Sjel-Jonas",
+            "metadata": {
+                "artists": [
+                    "Lasse Marhaug, Tore H. Bøe, Nordic Miracle, Ole Herman Melby, Kobi, Two Shot Sons, Andreas Meland, MC Peko, Sjel-Jonas"
+                ],
+                "event_date": "2001-09-28",
+                "event_name": "LavfideliskAften 3",
+                "location": "St. Croix huset, Fredrikstad, Norway"
+            },
+            "description": "DJ in lille sal",
+            "image": "/events_photos/archive-2001-09-28.png",
+            "links": [
+                {
+                    "label": "St. Croix huset",
+                    "url": "http://kulturhusene.no"
+                }
+            ]
+        }
+    ]
+}

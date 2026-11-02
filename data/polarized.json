@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "out-of-place",
+      "title": "Out Of Place (Polarized)",
+      "url": "https://soundcloud.com/mc-peko/rama-project-out-of-place-polarized",
+      "image": "/img/polarized/out-of-place.jpg",
+      "metadata": {"artists": ["Rama Project"], "published_date": "2014-11-06", "duration_ms": 900159, "remixed_by": ["MC Peko"]},
+      "sources": [
+        {"label": "SoundCloud", "url": "https://soundcloud.com/mc-peko/rama-project-out-of-place-polarized", "fields": ["published_date", "duration_ms", "remixed_by"]}
+      ]
+    },
+    {
+      "id": "bad-luck",
+      "title": "Bad Luck (Polarized)",
+      "url": "https://soundcloud.com/mc-peko/fredforfaen-bad-luck-polarized",
+      "image": "/img/polarized/bad-luck.jpg",
+      "metadata": {"artists": ["fredforfaen"], "published_date": "2014-03-27", "duration_ms": 373350, "remixed_by": ["MC Peko"]},
+      "sources": [
+        {"label": "SoundCloud", "url": "https://soundcloud.com/mc-peko/fredforfaen-bad-luck-polarized", "fields": ["published_date", "duration_ms", "remixed_by"]}
+      ]
+    },
+    {
+      "id": "rise-above-the-sky",
+      "title": "Rise Above The Sky (Polarized)",
+      "url": "https://soundcloud.com/mc-peko/pivotex-rise-above-the-sky-polarized",
+      "image": "/img/polarized/rise-above-the-sky.jpg",
+      "metadata": {"artists": ["Pivotex"], "published_date": "2014-10-08", "duration_ms": 264096, "remixed_by": ["MC Peko"]},
+      "sources": [
+        {"label": "SoundCloud", "url": "https://soundcloud.com/mc-peko/pivotex-rise-above-the-sky-polarized", "fields": ["published_date", "duration_ms", "remixed_by"]}
+      ]
+    },
+    {
+      "id": "tomorrow",
+      "title": "Tomorrow (Polarized)",
+      "url": "https://soundcloud.com/mc-peko/unlogic-thing-tomorrow-polarized",
+      "image": "/img/polarized/tomorrow.jpg",
+      "metadata": {"artists": ["Unlogic Thing"], "published_date": "2015-07-09", "duration_ms": 283246, "remixed_by": ["MC Peko"]},
+      "sources": [
+        {"label": "SoundCloud", "url": "https://soundcloud.com/mc-peko/unlogic-thing-tomorrow-polarized", "fields": ["published_date", "duration_ms", "remixed_by"]}
+      ]
+    },
+    {
+      "id": "the-local-pinnipeds",
+      "title": "The Local Pinnipeds (Polarized)",
+      "url": "https://soundcloud.com/mc-peko/prunk-mobel-the-local-pinnipeds-polarized",
+      "image": "/img/polarized/the-local-pinnipeds.jpg",
+      "metadata": {"artists": ["Prunk Möbel"], "published_date": "2016-01-01", "duration_ms": 188072, "remixed_by": ["MC Peko"]},
+      "sources": [
+        {"label": "SoundCloud", "url": "https://soundcloud.com/mc-peko/prunk-mobel-the-local-pinnipeds-polarized", "fields": ["published_date", "duration_ms", "remixed_by"]}
+      ]
+    },
+    {
+      "id": "out-there",
+      "title": "Out There (Polarized)",
+      "url": "https://soundcloud.com/mc-peko/icon-of-coil-out-there-polarized",
+      "image": "/img/polarized/out-there.jpg",
+      "metadata": {
+        "artists": ["Icon Of Coil"],
+        "published_date": "2016-01-17",
+        "duration_ms": 183710,
+        "written_by": ["Sebastian Komor", "Andy LaPlegua"],
+        "remixed_by": ["MC Peko"],
+        "original_copyright": "Icon Of Coil"
+      },
+      "sources": [
+        {"label": "SoundCloud", "url": "https://soundcloud.com/mc-peko/icon-of-coil-out-there-polarized", "fields": ["published_date", "duration_ms", "written_by", "remixed_by", "original_copyright"]}
+      ]
+    },
+    {
+      "id": "night",
+      "title": "Night (Polarized)",
+      "url": "https://soundcloud.com/mc-peko/ludovico-einaudi-night-polarized",
+      "image": "/img/polarized/night.jpg",
+      "metadata": {"artists": ["Ludovico Einaudi"], "published_date": "2016-04-02", "duration_ms": 536108, "remixed_by": ["MC Peko"]},
+      "sources": [
+        {"label": "SoundCloud", "url": "https://soundcloud.com/mc-peko/ludovico-einaudi-night-polarized", "fields": ["published_date", "duration_ms", "remixed_by"]}
+      ]
+    },
+    {
+      "id": "church",
+      "title": "Church (Polarized)",
+      "url": "https://soundcloud.com/mc-peko/the-quantum-field-trip-church-polarized",
+      "image": "/img/polarized/church.jpg",
+      "metadata": {"artists": ["The Quantum Field Trip"], "published_date": "2016-03-25", "duration_ms": 427246, "remixed_by": ["MC Peko"]},
+      "sources": [
+        {"label": "SoundCloud", "url": "https://soundcloud.com/mc-peko/the-quantum-field-trip-church-polarized", "fields": ["published_date", "duration_ms", "remixed_by"]}
+      ]
+    },
+    {
+      "id": "the-sea-you-and-me",
+      "title": "The Sea, You And Me (Polarized)",
+      "url": "https://soundcloud.com/mc-peko/silentlab-the-sea-you-and-me-polarized",
+      "image": "/img/polarized/the-sea-you-and-me.jpg",
+      "metadata": {"artists": ["Silentlab"], "published_date": "2016-09-06", "duration_ms": 289593, "remixed_by": ["MC Peko"]},
+      "sources": [
+        {"label": "SoundCloud", "url": "https://soundcloud.com/mc-peko/silentlab-the-sea-you-and-me-polarized", "fields": ["published_date", "duration_ms", "remixed_by"]}
+      ]
+    }
+  ]
+}

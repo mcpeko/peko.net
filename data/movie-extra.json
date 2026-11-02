@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "anno-1700-season-three",
+      "title": "Anno 1700 Season Three",
+      "url": "https://nrk.no",
+      "metadata": {
+        "format": "Reality series",
+        "participation_year": "2015",
+        "role": "Background actor",
+        "character": "Slave",
+        "production_company": "Strix",
+        "broadcaster": "NRK"
+      },
+      "metadata_links": {"production_company": "https://strix.se"},
+      "sources": [
+        {"label": "Film notes", "url": "/film/anno_1700_season_three.txt", "fields": ["participation_year", "character", "production_company", "broadcaster"]}
+      ]
+    },
+    {
+      "id": "beforeigners-season-one",
+      "title": "Beforeigners Season One",
+      "image": "/film_photos/beforeigners-season-one-full.png",
+      "url": "https://hbomax.com",
+      "metadata": {
+        "format": "Series",
+        "participation_year": "2018",
+        "role": "Background actor",
+        "character": "Viking",
+        "casting": "Løkka Casting",
+        "broadcaster": "HBO Nordic"
+      },
+      "sources": [
+        {"label": "Film notes", "url": "/film/beforeigners_season_one.txt", "fields": ["format", "participation_year", "character", "casting", "broadcaster"]}
+      ]
+    },
+    {
+      "id": "beforeigners-season-two",
+      "title": "Beforeigners Season Two",
+      "image": "/film_photos/beforeigners-season-two-selected.png",
+      "url": "https://hbomax.com",
+      "metadata_links": {"production_company": "https://rubicon.no"},
+      "metadata": {
+        "format": "Series",
+        "participation_year": "2020",
+        "role": "Background actor",
+        "character": "Viking",
+        "production_company": "Rubicon",
+        "broadcaster": "HBO Nordic"
+      },
+      "sources": [
+        {"label": "Film notes", "url": "/film/beforeigners_season_two.txt", "fields": ["format", "participation_year", "character", "production_company", "broadcaster"]}
+      ]
+    },
+    {
+      "id": "dode-menn-gar-pa-ski",
+      "title": "Døde Menn Går På Ski",
+      "image": "/film_photos/dode-menn-gar-pa-ski.png",
+      "url": "https://skylinestudios.no",
+      "metadata": {"format": "Movie", "participation_year": "2024", "role": "Background actor", "character": "Punk audience", "production_company": "Skyline Studios"},
+      "metadata_links": {"production_company": "https://skylinestudios.no"},
+      "sources": [
+        {"label": "Film notes", "url": "/film/dode_menn_går_på_ski.txt", "fields": ["format", "participation_year", "character", "production_company"]}
+      ]
+    },
+    {
+      "id": "golden-gate",
+      "title": "Golden Gate",
+      "url": "https://mediev.no",
+      "metadata": {"format": "Short movie", "participation_year": "1998", "role": "Background actor", "character": "Hitchhiker", "production_company": "Østfold Medieverksted"},
+      "metadata_links": {"production_company": "https://mediev.no"},
+      "sources": [
+        {"label": "Film notes", "url": "/film/golden_gate.txt", "fields": ["format", "participation_year", "character", "production_company"]}
+      ]
+    },
+    {
+      "id": "makta-season-one",
+      "title": "Makta Season One",
+      "url": "https://nrk.no",
+      "metadata": {
+        "format": "Series",
+        "participation_year": "2023",
+        "role": "Background actor",
+        "character": "Politician",
+        "production_company": "Motlys",
+        "broadcaster": "NRK"
+      },
+      "metadata_links": {"production_company": "https://motlys.com"},
+      "sources": [
+        {"label": "Film notes", "url": "/film/makta_season_one.txt", "fields": ["format", "participation_year", "character", "production_company", "broadcaster"]}
+      ]
+    },
+    {
+      "id": "now-clap",
+      "title": "Now Clap!",
+      "description": "Also known as \"Applaus!\"",
+      "url": "https://filmskolen.no",
+      "image": "/film_photos/now_clap_01.png",
+      "metadata": {"format": "Short movie", "participation_year": "2024", "role": "Background actor", "character": "Audience", "production_company": "Den Norske Filmskolen"},
+      "metadata_links": {"production_company": "https://filmskolen.no"},
+      "sources": [
+        {"label": "Film notes", "url": "/film/applaus.txt", "fields": ["format", "participation_year", "character", "production_company"]}
+      ]
+    }
+  ]
+}

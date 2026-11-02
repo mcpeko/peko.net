@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "the-day-we-spent-in-spain",
+      "title": "The Day We Spent In Spain (MC Peko Remix)",
+      "url": "https://open.spotify.com/track/2iPBP9A5fDyafzmVYonqg7",
+      "image": "/img/remixes/the-day-we-spent-in-spain.jpg",
+      "metadata": {
+        "artists": ["Silentlab", "MC Peko"],
+        "release_date": "2022-10-12",
+        "duration_ms": 276610,
+        "label": "Fuzz Pop",
+        "remixed_by": ["MC Peko"]
+      },
+      "sources": [
+        {"label": "Spotify", "url": "https://open.spotify.com/track/2iPBP9A5fDyafzmVYonqg7", "fields": ["artists", "release_date", "duration_ms", "label", "remixed_by"]}
+      ]
+    },
+    {
+      "id": "lonesome-town",
+      "title": "Lonesome Town (MC Peko Remix)",
+      "url": "https://open.spotify.com/track/6SyvIpkZu3kuentgMhdHJG",
+      "image": "/img/remixes/lonesome-town.jpg",
+      "metadata": {
+        "artists": ["Silentlab", "MC Peko"],
+        "release_date": "2021-12-20",
+        "duration_ms": 179732,
+        "label": "Fuzz Pop",
+        "remixed_by": ["MC Peko"]
+      },
+      "sources": [
+        {"label": "Spotify", "url": "https://open.spotify.com/track/6SyvIpkZu3kuentgMhdHJG", "fields": ["artists", "release_date", "duration_ms", "label", "remixed_by"]}
+      ]
+    },
+    {
+      "id": "the-funeral",
+      "title": "The Funeral (MC Peko Remix)",
+      "url": "https://open.spotify.com/track/0y4YbbJAlr83T7I8rLGxVk",
+      "image": "/img/remixes/the-funeral.png",
+      "metadata": {
+        "artists": ["The Sky's Gone Out", "MC Peko"],
+        "release_date": "2015-07-17",
+        "duration_ms": 346666,
+        "label": "Velvet Elektra",
+        "album": "Tell Me How It Feels",
+        "remixed_by": ["MC Peko"]
+      },
+      "sources": [
+        {"label": "Spotify", "url": "https://open.spotify.com/track/0y4YbbJAlr83T7I8rLGxVk", "fields": ["artists", "release_date", "duration_ms", "label", "album", "remixed_by"]}
+      ]
+    }
+  ]
+}

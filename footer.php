@@ -1,58 +1,34 @@
-<footer>
+<footer class="footer colored">
 
-  &copy; <a href="https://fuzzpop.no">Fuzz Pop</a>.
-  All rights reserved.
-
-  <br>
-  <br>
-
-  <div class="images">
-    <a href="https://fuzzpop.no">
-      <img src="img/fuzz_pop.svg" alt="Fuzz Pop" class="logos">
+  <div class="footer-socials">
+    <a href="https://facebook.com/mcpekoofficial" aria-label="Facebook" title="Facebook">
+      <svg class="icons" aria-hidden="true" focusable="false">
+        <use href="/icons.svg#facebook"></use>
+      </svg>
     </a>
-  </div>
-
-  <br>
-  <br>
-
-  Produced at <a href="https://focusstudios.no">Focus Studios</a> by Ole Peko Sørensen.
-
-  <br>
-  <br>
-
-  <div class="images">
-    <a href="https://focusstudios.no">
-      <img src="img/focus_studios.svg" alt="Focus Studios" class="logos">
+    <a href="https://instagram.com/mcpeko" aria-label="Instagram" title="Instagram">
+      <svg class="icons" aria-hidden="true" focusable="false">
+        <use href="/icons.svg#instagram"></use>
+      </svg>
     </a>
-  </div>
-
-  <br>
-  <br>
-
-  <div class="images">
-    <a href="https://facebook.com/mcpekoofficial" title="Facebook" aria-label="Facebook">
-      <svg class="icons">
-        <use href="/icons.svg#facebook" />
+    <a href="https://github.com/mcpeko/peko.net" aria-label="GitHub" title="GitHub">
+      <svg class="icons" aria-hidden="true" focusable="false">
+        <use href="/icons.svg#github"></use>
       </svg>
     </a>
   </div>
 
-  <div class="images">
-    <a href="https://instagram.com/mcpeko" title="Instagram" aria-label="Instagram">
-      <svg class="icons">
-        <use href="/icons.svg#instagram" />
-      </svg>
-    </a>
-  </div>
-
-  <div class="images">
-    <a href="https://github.com/mcpeko/peko.net" title="GitHub" aria-label="GitHub">
-      <svg class="icons">
-        <use href="/icons.svg#github" />
-      </svg>
+  <div class="footer-branding">
+    <div class="footer-credit">
+      Copyright &copy; MC Peko. All rights reserved.<br>
+      Produced at <a href="https://focusstudios.no">Focus Studios</a> by
+      <a href="/">Ole Peko Sørensen</a>.
+    </div>
+    <a href="https://focusstudios.no" class="focus" aria-label="Focus Studios">
+      <img src="/img/focus_studios.svg" alt="" class="logos">
     </a>
   </div>
 
 </footer>
 
-<script src="index.js"></script>
+<script src="index.js?v=<?php echo filemtime(__DIR__ . '/index.js'); ?>"></script>

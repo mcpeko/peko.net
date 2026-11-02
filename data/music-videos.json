@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "shes-dead",
+      "title": "She's Dead",
+      "url": "https://youtu.be/_nwNNsyEdfs?si=N2TnSbQTOdqXc2U1",
+      "image": "/img/music-videos/shes-dead.jpg",
+      "metadata": {
+        "artists": ["The Sky's Gone Out"],
+        "published_date": "2024-04-11",
+        "duration_ms": 348000,
+        "label": "Velvet Elektra",
+        "video_by": ["Ole Peko Sørensen"]
+      },
+      "sources": [
+        {"label": "YouTube", "url": "https://www.youtube.com/watch?v=_nwNNsyEdfs", "fields": ["published_date", "duration_ms", "video_by"]}
+      ]
+    },
+    {
+      "id": "vladivar",
+      "title": "Vladivar",
+      "url": "https://youtu.be/9iHKasawsUw?si=159GTUez4TTz1wYt",
+      "image": "/img/music-videos/vladivar.jpg",
+      "metadata": {
+        "artists": ["Bronson Comet Lighter"],
+        "published_date": "2020-09-19",
+        "duration_ms": 228000,
+        "label": "Bronson Recordings",
+        "album": "Citrus Bliss",
+        "album_catalogue_number": "Bro'11",
+        "album_release_date": "2019-03-07",
+        "edited_by": ["Ole Peko Sørensen"],
+        "produced_by": ["Ole Peko Sørensen"],
+        "studio": "Focus Studios"
+      },
+      "sources": [
+        {"label": "YouTube", "url": "https://www.youtube.com/watch?v=9iHKasawsUw", "fields": ["published_date", "duration_ms", "label", "album", "edited_by", "produced_by", "studio"]},
+        {"label": "Citrus Bliss release notes", "url": "/releases/citrus_bliss.txt", "fields": ["album_catalogue_number", "album_release_date"]}
+      ]
+    },
+    {
+      "id": "lonesome-town",
+      "title": "Lonesome Town",
+      "url": "https://www.youtube.com/watch?v=CGXePr3IMEg&t=5s",
+      "image": "/img/music-videos/lonesome-town.png",
+      "metadata": {"artists": ["Silentlab"], "published_date": "2021-11-01", "duration_ms": 173000},
+      "sources": [
+        {"label": "YouTube", "url": "https://www.youtube.com/watch?v=CGXePr3IMEg", "fields": ["published_date", "duration_ms"]}
+      ]
+    },
+    {
+      "id": "hey-hey-goodbye",
+      "title": "Hey, Hey Goodbye",
+      "url": "https://www.youtube.com/watch?v=tdpcyPqI4os",
+      "image": "/img/music-videos/hey-hey-goodbye.png",
+      "metadata": {"artists": ["Silentlab"], "published_date": "2020-12-11", "duration_ms": 182000},
+      "sources": [
+        {"label": "YouTube", "url": "https://www.youtube.com/watch?v=tdpcyPqI4os", "fields": ["published_date", "duration_ms"]}
+      ]
+    },
+    {
+      "id": "the-funeral",
+      "title": "The Funeral",
+      "url": "https://www.youtube.com/watch?v=jAf_hCiI-zw",
+      "image": "/img/music-videos/the-funeral.png",
+      "metadata": {"artists": ["The Sky's Gone Out"], "published_date": "2016-01-05", "duration_ms": 340000, "label": "Velvet Elektra"},
+      "sources": [
+        {"label": "YouTube", "url": "https://www.youtube.com/watch?v=jAf_hCiI-zw", "fields": ["published_date", "duration_ms"]}
+      ]
+    }
+  ]
+}

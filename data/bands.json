@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "howlin-of-the-wolf",
+      "title": "Howlin' of the Wolf",
+      "description": "Super heavy progressive blues. Endre Tønnesen replaced me on bass. Released two albums and a single. Played several concerts.",
+      "image": "/bands_photos/howlin_of_the_wolf.png",
+      "links": [
+        {"label": "Website", "url": "https://howlinofthewolf.com"},
+        {"label": "Facebook", "url": "https://facebook.com/howlinofthewolf"},
+        {"label": "Spotify", "url": "https://open.spotify.com/artist/74JX7v2IC9YPFTBmhuRV1X"}
+      ]
+    },
+    {
+      "id": "silentlab",
+      "title": "Silentlab",
+      "description": "Indie pop duo. Marie and I. Released one CD EP. Played several concerts.",
+      "image": "/bands_photos/silentlab-band.png",
+      "links": [
+        {"label": "Website", "url": "https://silentlab.net"},
+        {"label": "Facebook", "url": "https://facebook.com/silentlab"},
+        {"label": "Spotify", "url": "https://open.spotify.com/artist/4trI2gf2BoSN6vTc8XrPYe"}
+      ]
+    },
+    {
+      "id": "bronson-comet-lighter",
+      "title": "Bronson Comet Lighter",
+      "description": "30 years of vinyl only! Manstad rehabilly. Released four EPs and four albums. Played several concerts.",
+      "image": "/bands_photos/bronson_comet_lighter_1.jpg",
+      "links": [
+        {"label": "Website", "url": "http://bronson.no"},
+        {"label": "Facebook", "url": "https://www.facebook.com/bronsoncometlighter"}
+      ]
+    },
+    {
+      "id": "arctica-antarctica",
+      "title": "Arctica / Antarctica",
+      "description": "Polar ambient. Jon Holm, Jonas Qvale and I. Played several concerts.",
+      "image": "/bands_photos/arctica_antarctica.png",
+      "links": [
+        {"label": "Website", "url": "https://arcticaantarctica.com"},
+        {"label": "SoundCloud", "url": "https://soundcloud.com/mc-peko/sets/arctica-antarctica"}
+      ]
+    }
+  ]
+}
