@@ -79,8 +79,8 @@ Band links include small Website, Facebook, Spotify and SoundCloud icons.
 Arctica / Antarctica uses a PNG converted from the supplied Nikon RAW photo.
 Use PNG for new bitmap assets.
 Cover artwork retains its original colors in both interface modes.
-Entry text appears to the right of its image or film placeholder, including
-on narrow screens.
+Entry text appears to the right of its image or placeholder on desktop.
+On screens narrower than 800px, images and placeholders appear above the text.
 Lofi entries contain the seven singles verified on Spotify, with direct song
 links and local front covers. Other unreleased records remain in
 `releases_lofi` but are not displayed. Movie extra uses available images from

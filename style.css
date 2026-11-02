@@ -273,6 +273,21 @@ a:visited {
   width: 96px;
 }
 
+@media (max-width: 799px) {
+  .section-entry {
+    flex-direction: column;
+  }
+
+  .section-entry .entry-cover,
+  .section-entry .entry-placeholder {
+    max-width: 100%;
+  }
+
+  .section-entry .entry-text {
+    width: 100%;
+  }
+}
+
 /* Center text on medium screens */
 @media (min-width: 2048px) {
   .center-on-medium-screen {
