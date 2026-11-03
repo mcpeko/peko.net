@@ -24,7 +24,7 @@
       Produced at <a href="https://focusstudios.no">Focus Studios</a> by
       <a href="/">Ole Peko Sørensen</a>.
     </div>
-    <a href="https://focusstudios.no" class="focus" aria-label="Focus Studios">
+    <a href="https://focusstudios.no" class="focus" aria-label="Focus Studios" title="Focus Studios">
       <img src="/img/focus_studios.svg" alt="" class="logos">
     </a>
   </div>
