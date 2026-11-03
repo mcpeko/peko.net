@@ -72,8 +72,18 @@ a {
   color: var(--color1);
 }
 
-a:not(:has(img)):hover {
+a:not(:has(img, svg)):hover {
   background: var(--white);
+}
+
+a:hover .icons,
+button:hover .icons {
+  opacity: 0.8;
+}
+
+.toc-container a:hover .icons,
+.toc-button:hover .icons {
+  opacity: 1;
 }
 
 a:visited {
