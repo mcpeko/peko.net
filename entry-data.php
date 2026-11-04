@@ -254,6 +254,10 @@ function formatEntryMetadata(string $field, mixed $value): string
       ? sprintf('%d:%02d:%02d', intdiv($seconds, 3600), intdiv($seconds, 60) % 60, $seconds % 60)
       : sprintf('%d:%02d', intdiv($seconds, 60), $seconds % 60);
   }
+  if ($field === 'event_date' && strlen($value) === 10) {
+    $date = DateTimeImmutable::createFromFormat('!Y-m-d', $value);
+    return $date->format('l, d-m-Y');
+  }
   if ($type === 'date' && strlen($value) === 10) {
     $date = DateTimeImmutable::createFromFormat('!Y-m-d', $value);
     return $date->format('d-m-Y');

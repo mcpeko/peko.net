@@ -48,8 +48,8 @@ Dark mode changes the interface without inverting the background photo.
 The header home link displays MC Peko as text; the site favicon is retained.
 Desktop section headers align with the side panels and their first icon rows.
 Section page headers repeat their icon on both sides to center the title.
-The homepage has a standalone personal introduction followed by section summaries;
-section pages use the corresponding summaries above their records.
+The homepage keeps the personal introduction and shows the next upcoming event;
+full content is on the corresponding section pages.
 
 On phones, section artwork fills the page width while record text retains
 its padding. Desktop entries keep their side-by-side layout.
@@ -105,7 +105,8 @@ Film placeholders retain their 16:9 proportions. Event links are applied
 directly to matching artist, event and venue text, including venue names within
 locations, rather than repeated in a separate link list. Explicit metadata links
 take precedence over these record-specific links and the shared website map.
-The homepage has a collapsible Events section linking to the Events page.
+The homepage has a collapsible Events section showing the next upcoming event
+and linking to the Events page.
 Event photos use a centered 4:3 crop matching the video stills, with the original
 files preserved.
 The upcoming 25-11-2026 event uses a local portrait A4 PNG crop of the supplied
@@ -129,7 +130,8 @@ than disappearing from the page.
 - `release_date`, `published_date`, `album_release_date` and `event_date`:
   ISO `YYYY-MM-DD`, or `YYYY` when only the year is known. Do not invent a day
   or month. Complete dates are displayed as `DD-MM-YYYY` throughout the site;
-  year-only dates remain `YYYY`. `participation_year`, displayed as Date, is a four-digit year from the film notes,
+  event dates also include the weekday; year-only dates remain `YYYY`.
+  `participation_year`, displayed as Date, is a four-digit year from the film notes,
   not the film or series release date.
 - `duration_ms`: positive integer milliseconds, displayed as `m:ss` or
   `h:mm:ss`. Fractions of a second are retained in JSON but not displayed.

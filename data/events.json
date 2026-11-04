@@ -12,6 +12,9 @@
                 "venue": "Trall Bar & Kulturscene",
                 "city": "Oslo"
             },
+            "metadata_links": {
+                "venue": "https://facebook.com/events/2295174697994163"
+            },
             "sources": [
                 {
                     "label": "Event notes",
@@ -485,6 +488,10 @@
                 {
                     "label": "DJ Peko",
                     "url": "http://peko.net"
+                },
+                {
+                    "label": "Greenhouse",
+                    "url": "https://facebook.com/greenhouseokomat"
                 }
             ]
         },
@@ -755,6 +762,10 @@
                 {
                     "label": "MC Peko",
                     "url": "http://peko.net"
+                },
+                {
+                    "label": "Fjeldberg Marina",
+                    "url": "https://facebook.com/groups/144961702203"
                 }
             ]
         },
