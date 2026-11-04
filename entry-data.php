@@ -76,7 +76,7 @@ function entryMetadataFields(): array
     'venue' => ['Venue', 'text', 'home'],
     'event_name' => ['Event', 'text', 'calendar'],
     'location' => ['Location', 'text', 'home'],
-    'city' => ['City', 'text', 'home'],
+    'city' => ['City', 'text', 'world'],
     'original_copyright' => ['Original recording copyright', 'text', 'asterisk']
   ];
 }
@@ -256,7 +256,7 @@ function formatEntryMetadata(string $field, mixed $value): string
   }
   if ($field === 'event_date' && strlen($value) === 10) {
     $date = DateTimeImmutable::createFromFormat('!Y-m-d', $value);
-    return $date->format('l, d-m-Y');
+    return $date->format('l d-m-Y');
   }
   if ($type === 'date' && strlen($value) === 10) {
     $date = DateTimeImmutable::createFromFormat('!Y-m-d', $value);

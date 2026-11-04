@@ -105,8 +105,8 @@ Film placeholders retain their 16:9 proportions. Event links are applied
 directly to matching artist, event and venue text, including venue names within
 locations, rather than repeated in a separate link list. Explicit metadata links
 take precedence over these record-specific links and the shared website map.
-The homepage has a collapsible Events section showing the next upcoming event
-and linking to the Events page.
+The homepage shows the next upcoming event with the same entry card as the Events
+page.
 Event photos use a centered 4:3 crop matching the video stills, with the original
 files preserved.
 The upcoming 25-11-2026 event uses a local portrait A4 PNG crop of the supplied

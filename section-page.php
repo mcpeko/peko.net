@@ -134,6 +134,9 @@ $canonicalUrl = 'https://peko.net/' . $sectionSlug . '.php';
       </div>
     <?php endif; ?>
   <?php foreach ($groupEntries as $entry): ?>
+    <?php if ($sectionSlug === 'events'): ?>
+      <?php require __DIR__ . '/event-entry.php'; ?>
+    <?php else: ?>
     <?php $displayTitle = in_array($sectionSlug, ['bands', 'events'], true) ? $entry['title'] : '"' . $entry['title'] . '"'; ?>
     <article class="section-entry padded colored"<?php if ($sectionSlug === 'releases'): ?> data-release-type="<?php echo strtolower($entry['metadata']['edition']) === 'digital' ? 'digital' : 'physical'; ?>"<?php endif; ?>>
       <?php if (isset($entry['image'])): ?>
@@ -237,6 +240,7 @@ $canonicalUrl = 'https://peko.net/' . $sectionSlug . '.php';
         <?php endif; ?>
       </div>
     </article>
+    <?php endif; ?>
   <?php endforeach; ?>
   <?php endforeach; ?>
 
