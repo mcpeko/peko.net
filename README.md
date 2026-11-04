@@ -51,6 +51,9 @@ Section page headers repeat their icon on both sides to center the title.
 The homepage has a standalone personal introduction followed by section summaries;
 section pages use the corresponding summaries above their records.
 
+On phones, section artwork fills the page width while record text retains
+its padding. Desktop entries keep their side-by-side layout.
+
 The footer displays the MC Peko copyright notice above the production credit,
 without a document update date.
 
