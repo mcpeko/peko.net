@@ -76,6 +76,10 @@ a:not(:has(img, svg)):hover {
   background: var(--white);
 }
 
+a:has(> .entry-external-icon):not(:has(img)):hover {
+  background: var(--white);
+}
+
 a:hover .icons,
 button:hover .icons,
 a.focus:hover img,
