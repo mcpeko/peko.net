@@ -35,7 +35,6 @@ try {
       <?php
       $sectionSlug = 'events';
       $entry = $nextEvent;
-      $homepageEvent = true;
       require __DIR__ . '/event-entry.php';
       ?>
     <?php endif; ?>
