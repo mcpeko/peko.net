@@ -241,8 +241,10 @@ destinations explicitly corrected by the site owner take precedence over the
 old archive. Raw HTML in archival notes is converted to text and safe HTTP(S)
 links; no old PHP page is copied into the runtime site.
 
-## License
+## Licence
 
-Code in this repository is licensed under the MIT License (see `LICENSE`). 
+This repository uses the custom Source Available — All Rights Reserved
+licence in [LICENCE](LICENCE), matching Pekosoft. It applies to both code and
+content. This is not an MIT-licensed or open-source repository.
 
 All content, including images, photos, logos, data, audio, video and text, in this repository is copyright © Ole Peko Sørensen. All rights reserved. It may not be reused, copied, or redistributed without explicit permission.
