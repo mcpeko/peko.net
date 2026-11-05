@@ -60,7 +60,7 @@ function entryMetadataFields(): array
     'mixed_by' => ['Mixed by', 'list', 'settings'],
     'mastered_by' => ['Mastered by', 'list', 'sound'],
     'studio' => ['Studio', 'text', 'home'],
-    'bpm' => ['BPM', 'number', 'bpm'],
+    'bpm' => ['BPM', 'number', 'metronome'],
     'key' => ['Key', 'text', 'piano'],
     'format' => ['Format', 'text', 'tag'],
     'edition' => ['Edition', 'text', 'record'],
