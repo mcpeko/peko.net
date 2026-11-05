@@ -31,15 +31,14 @@ try {
     Hi. I'm MC Peko or DJ Peko or Ole Peko Sørensen. Most of the time I make lofi beats on my phone.
   </div>
 
-  <div class="padded center-on-medium-screen colored">
     <?php if ($nextEvent !== null): ?>
       <?php
       $sectionSlug = 'events';
       $entry = $nextEvent;
+      $homepageEvent = true;
       require __DIR__ . '/event-entry.php';
       ?>
     <?php endif; ?>
-  </div>
 
   <?php require($_SERVER['DOCUMENT_ROOT'] . "/footer.php"); ?>
 

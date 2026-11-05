@@ -2,7 +2,7 @@
 $displayTitle = $entry['title'];
 $eventType = (['concert' => 'Concert', 'DJ' => 'DJ set'][$entry['description'] ?? ''] ?? $entry['description'] ?? null);
 ?>
-<article class="section-entry padded colored">
+<article class="section-entry padded colored<?php echo !empty($homepageEvent) ? ' homepage-event' : ''; ?>">
   <?php if (isset($entry['image'])): ?>
     <?php if (isset($entry['poster_url'])): ?>
       <a class="entry-cover-link" href="<?php echo htmlspecialchars($entry['poster_url'], ENT_QUOTES, 'UTF-8'); ?>">

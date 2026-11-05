@@ -149,6 +149,23 @@ a:visited {
   text-align: left;
 }
 
+.section-entry.homepage-event {
+  flex-direction: column;
+  padding: 0;
+}
+
+.section-entry.homepage-event > .entry-text {
+  padding: 10px;
+  width: 100%;
+}
+
+.section-entry.homepage-event > .entry-cover-link,
+.section-entry.homepage-event > .entry-cover,
+.section-entry.homepage-event > .entry-placeholder {
+  max-width: 100%;
+  width: 100%;
+}
+
 .section-entry[hidden] {
   display: none;
 }
