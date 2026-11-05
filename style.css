@@ -243,6 +243,18 @@ a:visited {
   width: 320px;
 }
 
+.section-entry .entry-cover-link {
+  display: block;
+  flex: none;
+  max-width: 40%;
+  width: 320px;
+}
+
+.section-entry .entry-cover-link .entry-cover {
+  max-width: 100%;
+  width: 100%;
+}
+
 .entry-event-photo {
   aspect-ratio: 4 / 3;
   object-fit: cover;
@@ -297,6 +309,11 @@ a:visited {
 
   .section-entry .entry-cover,
   .section-entry .entry-placeholder {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .section-entry .entry-cover-link {
     max-width: 100%;
     width: 100%;
   }

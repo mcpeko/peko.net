@@ -136,7 +136,7 @@ function validateSectionEntries(mixed $data): array
     if (!is_array($entry) || !isset($entry['id'], $entry['title'])
       || !is_string($entry['id']) || !preg_match('/^[a-z0-9]+(?:-[a-z0-9]+)*$/', $entry['id'])
       || isset($ids[$entry['id']]) || !entryTextValid($entry['title'])
-      || array_diff(array_keys($entry), ['id', 'title', 'description', 'url', 'image', 'links', 'metadata', 'metadata_links', 'sources'])) {
+      || array_diff(array_keys($entry), ['id', 'title', 'description', 'url', 'image', 'poster_url', 'links', 'metadata', 'metadata_links', 'sources'])) {
       throw new RuntimeException($context . ': invalid record, title or unique ID.');
     }
     $ids[$entry['id']] = true;
@@ -150,6 +150,10 @@ function validateSectionEntries(mixed $data): array
       || !preg_match('~^/(img|film_photos|events_photos|bands_photos)/[a-z0-9/_-]+\.(jpg|png|webp)$~', $entry['image'])
       || !is_file(__DIR__ . $entry['image']))) {
       throw new RuntimeException($context . ': invalid or missing image.');
+    }
+    if (array_key_exists('poster_url', $entry)
+      && (!array_key_exists('image', $entry) || !entryUrlValid($entry['poster_url']))) {
+      throw new RuntimeException($context . ': invalid poster URL.');
     }
     if (array_key_exists('metadata', $entry)) {
       if (!is_array($entry['metadata']) || $entry['metadata'] === [] || array_is_list($entry['metadata'])) {

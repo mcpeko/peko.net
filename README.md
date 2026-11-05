@@ -59,7 +59,8 @@ without a document update date.
 
 Section entries use a required stable `id` and `title`, with optional plain-text `description`
 and HTTP(S) `url`. An optional `image` points to a local image under `/img`
-or `/film_photos`, `/events_photos` or `/bands_photos`.
+or `/film_photos`, `/events_photos` or `/bands_photos`; `poster_url` optionally
+links that image to an HTTP(S) destination.
 Work titles (songs, releases, videos and films) and album metadata
 are displayed in straight double quotation marks. Event names, artist names and page/group
 headings remain unquoted. Quotation marks are presentation, not stored title data.
@@ -109,6 +110,7 @@ The homepage shows the next upcoming event with the same entry card as the Event
 page.
 Event photos use a centered 4:3 crop matching the video stills, with the original
 files preserved.
+When an event has a `poster_url`, its poster links directly to that event.
 The upcoming 25-11-2026 event uses a local portrait A4 PNG crop of the supplied
 poster, retaining its heading and date. The original JPEG remains unchanged.
 The TOC still opens the local Events page. Invalid entry data produces

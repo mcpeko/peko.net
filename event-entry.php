@@ -4,8 +4,14 @@ $eventType = (['concert' => 'Concert', 'DJ' => 'DJ set'][$entry['description'] ?
 ?>
 <article class="section-entry padded colored">
   <?php if (isset($entry['image'])): ?>
+    <?php if (isset($entry['poster_url'])): ?>
+      <a class="entry-cover-link" href="<?php echo htmlspecialchars($entry['poster_url'], ENT_QUOTES, 'UTF-8'); ?>">
+    <?php endif; ?>
     <img class="entry-cover entry-event-photo" src="<?php echo htmlspecialchars($entry['image'], ENT_QUOTES, 'UTF-8'); ?>"
       alt="<?php echo htmlspecialchars($entry['title'] . ' event photo', ENT_QUOTES, 'UTF-8'); ?>" loading="lazy">
+    <?php if (isset($entry['poster_url'])): ?>
+      </a>
+    <?php endif; ?>
   <?php else: ?>
     <div class="entry-placeholder entry-poster-placeholder" role="img" aria-label="Poster not available">
       <svg aria-hidden="true"><use href="/icons.svg#calendar"></use></svg>
