@@ -39,6 +39,13 @@ try {
       ?>
     <?php endif; ?>
 
+  <section class="label-feature padded colored">
+    <a href="https://fuzzpop.no" title="Fuzz Pop">
+      <img class="label-logo" src="/img/fuzz_pop.svg" alt="Fuzz Pop">
+    </a>
+    <p>MC Peko is an artist on the Fuzz Pop label.</p>
+  </section>
+
   <?php require($_SERVER['DOCUMENT_ROOT'] . "/footer.php"); ?>
 
 </body>

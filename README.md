@@ -50,6 +50,8 @@ Desktop section headers align with the side panels and their first icon rows.
 Section page headers repeat their icon on both sides to center the title.
 The homepage keeps the personal introduction and shows the next upcoming event;
 full content is on the corresponding section pages.
+The homepage also displays the linked Fuzz Pop logo and artist label credit,
+matching Silentlab's label feature.
 
 On phones, section artwork fills the page width while record text retains
 its padding. Desktop entries keep their side-by-side layout.

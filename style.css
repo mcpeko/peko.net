@@ -142,6 +142,34 @@ a:visited {
   margin-top: 16px;
 }
 
+.label-feature {
+  margin: 16px auto;
+  max-width: var(--maxwidth);
+  text-align: center;
+}
+
+.label-feature > a {
+  display: block;
+  margin: 0 auto;
+  max-width: min(100%, 560px);
+  width: fit-content;
+}
+
+.label-feature p {
+  margin: 16px 0 0;
+}
+
+.label-logo {
+  display: block;
+  height: clamp(72px, 10vw, 128px);
+  max-width: 100%;
+  width: auto;
+}
+
+.label-feature > a:hover img {
+  opacity: 0.8;
+}
+
 .section-entry {
   align-items: start;
   display: flex;
