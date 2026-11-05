@@ -175,6 +175,16 @@ a:visited {
   margin: 0;
 }
 
+.playlist-player {
+  border: 0;
+  display: block;
+  width: 100%;
+}
+
+.top-line + .section-entry:has(.playlist-player) {
+  margin-top: 16px;
+}
+
 .entry-text {
   flex: 1;
   min-width: 0;
@@ -275,8 +285,10 @@ a:visited {
   object-fit: cover;
 }
 
-.invert-colors .entry-cover {
-  filter: hue-rotate(-180deg) invert(1);
+.invert-colors .entry-cover,
+.invert-colors img:not([src*=".svg" i]),
+.invert-colors .playlist-player {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 .entry-placeholder {

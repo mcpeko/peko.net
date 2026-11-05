@@ -7,6 +7,11 @@ $sections = [
 <a href="https://open.spotify.com/artist/5p4HgZHdHOOWlE9q7aJ9ZM">Here they are on Spotify</a>, and you can find them on other outlets as well. Instrumental, around two minutes and 70 BPM kinda stuff with sufficient crackle, shuffle and microtonality.
 HTML
   ],
+  'playlists' => [
+    'title' => 'Playlists',
+    'icon' => 'spotify',
+    'content' => ''
+  ],
   'bands' => [
     'title' => 'Bands',
     'icon' => 'band',
@@ -64,6 +69,14 @@ require_once __DIR__ . '/entry-data.php';
 try {
   $entries = loadSectionEntries($sectionSlug);
   $metadataWebsites = loadMetadataWebsites();
+  if ($sectionSlug === 'playlists') {
+    foreach ($entries as $index => $entry) {
+      if (!preg_match('~^https://open\.spotify\.com/playlist/([A-Za-z0-9]{22})$~', $entry['url'] ?? '', $match)) {
+        throw new RuntimeException('Invalid Spotify playlist URL for ' . $entry['id'] . '.');
+      }
+      $entries[$index]['embed_url'] = 'https://open.spotify.com/embed/playlist/' . $match[1] . '?theme=0';
+    }
+  }
 } catch (RuntimeException $error) {
   error_log('Unable to load section entries for ' . $sectionSlug . ': ' . $error->getMessage());
   http_response_code(500);
@@ -137,7 +150,7 @@ $canonicalUrl = 'https://peko.net/' . $sectionSlug . '.php';
     <?php if ($sectionSlug === 'events'): ?>
       <?php require __DIR__ . '/event-entry.php'; ?>
     <?php else: ?>
-    <?php $displayTitle = in_array($sectionSlug, ['bands', 'events'], true) ? $entry['title'] : '"' . $entry['title'] . '"'; ?>
+    <?php $displayTitle = in_array($sectionSlug, ['bands', 'events', 'playlists'], true) ? $entry['title'] : '"' . $entry['title'] . '"'; ?>
     <article class="section-entry padded colored"<?php if ($sectionSlug === 'releases'): ?> data-release-type="<?php echo strtolower($entry['metadata']['edition']) === 'digital' ? 'digital' : 'physical'; ?>"<?php endif; ?>>
       <?php if (isset($entry['image'])): ?>
         <img class="entry-cover<?php echo $sectionSlug === 'events' ? ' entry-event-photo' : ($sectionSlug === 'bands' ? ' entry-band-photo' : ''); ?>" src="<?php echo htmlspecialchars($entry['image'], ENT_QUOTES, 'UTF-8'); ?>"
@@ -148,6 +161,7 @@ $canonicalUrl = 'https://peko.net/' . $sectionSlug . '.php';
         </div>
       <?php endif; ?>
       <div class="entry-text">
+        <?php if ($sectionSlug !== 'playlists'): ?>
         <h2>
           <?php if (isset($entry['url'])): ?>
             <a href="<?php echo htmlspecialchars(entryLinkUrl($entry['url']), ENT_QUOTES, 'UTF-8'); ?>"><?php echo htmlspecialchars($displayTitle, ENT_QUOTES, 'UTF-8'); ?></a>
@@ -155,6 +169,7 @@ $canonicalUrl = 'https://peko.net/' . $sectionSlug . '.php';
             <?php echo $sectionSlug === 'events' ? renderEntryLinkedText($displayTitle, $entry['links'] ?? []) : htmlspecialchars($displayTitle, ENT_QUOTES, 'UTF-8'); ?>
           <?php endif; ?>
         </h2>
+        <?php endif; ?>
         <?php $eventType = $sectionSlug === 'events' ? (['concert' => 'Concert', 'DJ' => 'DJ set'][$entry['description'] ?? ''] ?? $entry['description'] ?? null) : null; ?>
         <?php if (isset($entry['description']) && $eventType === null): ?>
           <p><?php echo $sectionSlug === 'events' ? renderEntryLinkedText($entry['description'], $entry['links'] ?? []) : htmlspecialchars($entry['description'], ENT_QUOTES, 'UTF-8'); ?></p>
@@ -237,6 +252,13 @@ $canonicalUrl = 'https://peko.net/' . $sectionSlug . '.php';
             <?php endforeach; ?>
           </p>
           <?php endif; ?>
+        <?php endif; ?>
+        <?php if ($sectionSlug === 'playlists'): ?>
+          <iframe class="playlist-player"
+            src="<?php echo htmlspecialchars($entry['embed_url'], ENT_QUOTES, 'UTF-8'); ?>"
+            title="<?php echo htmlspecialchars($entry['title'] . ' Spotify player', ENT_QUOTES, 'UTF-8'); ?>"
+            height="352"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         <?php endif; ?>
       </div>
     </article>

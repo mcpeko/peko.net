@@ -65,7 +65,15 @@ Work titles (songs, releases, videos and films) and album metadata
 are displayed in straight double quotation marks. Event names, artist names and page/group
 headings remain unquoted. Quotation marks are presentation, not stored title data.
 Each section has a JSON file under `data`, with `schema_version: 1` and an
-ordered `entries` list. Polarized has nine
+ordered `entries` list. Playlists lists the supplied Lofi Hip Hop and Fredrikstad
+Spotify playlists by DJ Peko, with responsive embedded Spotify players and no
+duplicate headings or links. Player URLs are derived from validated Spotify playlist URLs.
+Players use Spotify's neutral dark theme instead of artwork-derived colors.
+Spotify controls the embedded fonts and internal styling; site styles apply to
+the surrounding headings and links.
+Entire playlist players counteract Light mode inversion to preserve their artwork,
+because images inside Spotify's cross-origin frames cannot be styled separately.
+Polarized has nine
 individual remixes with their original SoundCloud covers in `/img/polarized`.
 The project heading is `(Polarized)`, and its remixes are displayed newest first
 by publication date.
