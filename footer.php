@@ -1,6 +1,11 @@
 <footer class="footer colored">
 
   <div class="footer-socials">
+    <a href="https://open.spotify.com/artist/5p4HgZHdHOOWlE9q7aJ9ZM" aria-label="Spotify" title="Spotify">
+      <svg class="icons" aria-hidden="true" focusable="false">
+        <use href="/icons.svg#spotify"></use>
+      </svg>
+    </a>
     <a href="https://facebook.com/mcpekoofficial" aria-label="Facebook" title="Facebook">
       <svg class="icons" aria-hidden="true" focusable="false">
         <use href="/icons.svg#facebook"></use>

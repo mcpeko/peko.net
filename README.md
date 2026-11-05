@@ -64,6 +64,7 @@ its padding. Desktop entries keep their side-by-side layout.
 
 The footer displays the MC Peko copyright notice above the production credit,
 without a document update date.
+Social icons are ordered Spotify, Facebook, Instagram and GitHub.
 
 Section entries use a required stable `id` and `title`, with optional plain-text `description`
 and HTTP(S) `url`. An optional `image` points to a local image under `/img`
