@@ -22,7 +22,7 @@ Everything is kept intentionally minimal and text-based.
 - HTML, CSS, PHP (no frameworks)
 - Plain JavaScript (`index.js`) for small interactive bits
 - SVG icons (`icons.svg`)
-- Deployed by uploading files to the web host via FTP
+- Deployed through GitHub Actions using lftp over SFTP
 
 ## Structure (short)
 
@@ -45,6 +45,16 @@ Everything is kept intentionally minimal and text-based.
 - `head.php`, `toc.php`, `footer.php` – shared layout includes
 
 ## Notes
+
+The standardized deployment workflow reads `.ftpignore` and recovers changes
+since the last successful upload. Existing `FTP_SERVER`, `FTP_USERNAME`,
+`FTP_PASSWORD` and `SERVER_DIR` secrets are accepted as SFTP compatibility
+aliases. Prefer `SFTP_HOST`, `SFTP_USERNAME`, `SFTP_PASSWORD`,
+`SFTP_REMOTE_DIR` and optional `SFTP_PORT` (22 by default).
+Verify SFTP login and destination with manual **check** mode before uploading.
+Full mode preserves remote-only files. Run
+`node --test .github/tests/deployment.cjs` for deployment tests.
+See the shared [deployment procedure](../SITES.md#deployment).
 
 This repo mirrors the live site. Changes are developed locally, then committed and pushed here, and finally uploaded to the server.
 

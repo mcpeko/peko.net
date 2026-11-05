@@ -1,23 +1,138 @@
-name: Deploy website
+name: Deploy site
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths-ignore:
+      - .github/instructions/**
+      - .github/tests/**
+      - .github/workflows/connection-test.yml
+      - .github/workflows/actions.lock
+      - .dev/**
+      - .githooks/**
+      - .vscode/**
+      - tests/**
+      - '**/*.md'
+      - '**/*.ai'
+      - '**/*_originals/**'
+      - .editorconfig
+      - .gitignore
+      - .ftpignore
+      - LICENCE
+      - THIRD-PARTY-LICENCES
+      - '**/.env*'
+      - '**/*.pem'
+      - '**/*.key'
+      - '**/*.p12'
+      - '**/*.pfx'
+      - '**/error_log*'
+      - '**/*.log'
+      - '**/*.bak'
+      - '**/*.tmp'
+      - '**/.DS_Store'
+      - '**/Thumbs.db'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Deployment mode. Check verifies login and destination without uploading.
+        type: choice
+        required: true
+        default: check
+        options: [check, dry-run, changed, full]
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
 
 jobs:
   deploy:
+    name: Upload via SFTP
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SFTP_HOST: ${{ secrets.SFTP_HOST || secrets.FTP_SERVER }}
+      SFTP_USERNAME: ${{ secrets.SFTP_USERNAME || secrets.FTP_USERNAME }}
+      SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD || secrets.FTP_PASSWORD }}
+      SFTP_PORT: ${{ vars.SFTP_PORT || '22' }}
+      SFTP_REMOTE_DIR: ${{ vars.SFTP_REMOTE_DIR || secrets.SERVER_DIR }}
+      DEPLOY_MODE: ${{ inputs.mode || 'changed' }}
+      DEPLOY_UPDATES_FEED: 'false'
+      DEPLOY_FULL_PRUNE: ''
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-
+      - name: Check out repository
+        uses: actions/checkout@v5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.SERVER_DIR }} 
+          fetch-depth: 0
+
+      - name: Test deployment behavior
+        run: node --test .github/tests/deployment.cjs
+
+      - name: Find last successful upload
+        id: baseline
+        if: env.DEPLOY_MODE == 'changed' || env.DEPLOY_MODE == 'dry-run'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const runs = await github.paginate(github.rest.actions.listWorkflowRuns, {
+              ...context.repo,
+              workflow_id: 'deploy.yml',
+              branch: context.ref.replace(/^refs\/heads\//, ''),
+              status: 'success',
+              per_page: 100
+            });
+            const candidates = runs
+              .filter(run => run.id !== context.runId)
+              .sort((left, right) => Date.parse(right.updated_at) - Date.parse(left.updated_at));
+            for (const run of candidates) {
+              if (run.event === 'workflow_dispatch') {
+                const jobs = await github.paginate(github.rest.actions.listJobsForWorkflowRun, {
+                  ...context.repo, run_id: run.id, per_page: 100
+                });
+                const uploadSteps = ['Upload website files', 'Upload changed website files',
+                  'Full sync website files', 'Upload runtime files', 'Deploy via FTP'];
+                if (!jobs.some(job => job.steps?.some(step =>
+                  uploadSteps.includes(step.name) && step.conclusion === 'success'))) continue;
+              }
+              core.info(`Using successful upload ${run.id} at ${run.head_sha}`);
+              core.setOutput('sha', run.head_sha);
+              return;
+            }
+            core.setFailed('No successful upload baseline. Verify the destination with Check before requesting a full upload.');
+
+      - name: Install lftp
+        if: env.DEPLOY_MODE != 'dry-run'
+        shell: bash
+        run: |
+          if ! command -v lftp >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y --no-install-recommends lftp
+          fi
+
+      - name: Trust SFTP host key
+        if: env.DEPLOY_MODE != 'dry-run'
+        shell: bash
+        run: |
+          test -n "$SFTP_HOST" || { echo "Missing SFTP_HOST or FTP_SERVER"; exit 1; }
+          [[ "$SFTP_HOST" =~ ^[a-zA-Z0-9.-]+$ ]] || { echo "Invalid SFTP hostname"; exit 1; }
+          [[ "$SFTP_PORT" =~ ^[0-9]+$ ]] || { echo "Invalid SFTP port"; exit 1; }
+          mkdir -p ~/.ssh
+          ssh-keyscan -p "$SFTP_PORT" "$SFTP_HOST" > ~/.ssh/known_hosts
+          test -s ~/.ssh/known_hosts || { echo "No host key returned"; exit 1; }
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Check connection or preview changes
+        if: env.DEPLOY_MODE == 'check' || env.DEPLOY_MODE == 'dry-run'
+        env:
+          DEPLOY_BASE: ${{ steps.baseline.outputs.sha }}
+        run: node .github/scripts/deploy.cjs
+
+      - name: Upload website files
+        if: env.DEPLOY_MODE == 'changed' || env.DEPLOY_MODE == 'full'
+        env:
+          DEPLOY_BASE: ${{ steps.baseline.outputs.sha }}
+        run: node .github/scripts/deploy.cjs
