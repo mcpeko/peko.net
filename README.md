@@ -107,7 +107,8 @@ directly to matching artist, event and venue text, including venue names within
 locations, rather than repeated in a separate link list. Explicit metadata links
 take precedence over these record-specific links and the shared website map.
 The homepage shows the next upcoming event with the same entry card as the Events
-page, with its poster displayed edge to edge and padding applied only to the text.
+page, with spacing around its poster on larger screens. Below 800px, the poster
+is displayed edge to edge and padding is applied only to the text.
 Event photos use a centered 4:3 crop matching the video stills, with the original
 files preserved.
 When an event has a `poster_url`, its poster links directly to that event.

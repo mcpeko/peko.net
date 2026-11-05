@@ -151,11 +151,10 @@ a:visited {
 
 .section-entry.homepage-event {
   flex-direction: column;
-  padding: 0;
 }
 
 .section-entry.homepage-event > .entry-text {
-  padding: 10px;
+  padding: 0;
   width: 100%;
 }
 
@@ -319,7 +318,8 @@ a:visited {
 }
 
 @media (max-width: 799px) {
-  .section-entry {
+  .section-entry,
+  .section-entry.homepage-event {
     padding: 0;
     flex-direction: column;
   }
@@ -335,7 +335,8 @@ a:visited {
     width: 100%;
   }
 
-  .section-entry .entry-text {
+  .section-entry .entry-text,
+  .section-entry.homepage-event > .entry-text {
     padding: 10px;
     width: 100%;
   }
