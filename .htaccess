@@ -1,8 +1,19 @@
 
 RewriteEngine on
+Options -MultiViews
+DirectorySlash Off
+RewriteRule ^lofi-hip-hop(?:\.php)?/?$ /lofi [R=301,L]
+RewriteRule ^music-videos(?:\.php)?/?$ /music_videos [R=301,L]
+RewriteRule ^movie-extra(?:\.php)?/?$ /movie_extra [R=301,L]
+RewriteCond %{THE_REQUEST} "\s/+index\.php[?\s]" [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+RewriteCond %{THE_REQUEST} "\s/+(lofi|playlists|bands|remixes|music_videos|polarized|movie_extra|events|releases|collabs)\.php[?\s]" [NC]
+RewriteRule ^(lofi|playlists|bands|remixes|music_videos|polarized|movie_extra|events|releases|collabs)\.php$ /$1 [R=301,L]
+RewriteRule ^(lofi|playlists|bands|remixes|music_videos|polarized|movie_extra|events|releases|collabs)/$ /$1 [R=301,L]
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(lofi|playlists|bands|remixes|music_videos|polarized|movie_extra|events|releases|collabs)$ $1.php [END]
 RewriteCond %{HTTPS} off
 RewriteCond %{HTTP:X-Forwarded-SSL} !on
 RewriteCond %{HTTP_HOST} ^peko\.net$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.peko\.net$
 RewriteRule ^/?$ "https\:\/\/peko\.net\/" [R=301,L]
-

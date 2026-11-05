@@ -35,6 +35,10 @@ Everything is kept intentionally minimal and text-based.
 - `/releases_lofi` – text files for lofi releases metadata  
 - `index.php` – main page  
 - `<section>.php` – pages for the main TOC entries, rendered by `section-page.php`
+- Public pages use extensionless URLs, including `/lofi`, `/music_videos`,
+  `/movie_extra` and `/remixes`. PHP filenames remain internal. Their old
+  hyphenated URLs redirect permanently, preserving query strings. Section data
+  keys remain unchanged; each renamed section declares its public `path`.
 - `/data/<section>.json` – structured records displayed on each section page
 - `entry-data.php` – shared data validation and metadata formatting
 - `style.css` – global styles  

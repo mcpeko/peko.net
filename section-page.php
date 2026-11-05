@@ -1,6 +1,7 @@
 <?php
 $sections = [
   'lofi-hip-hop' => [
+    'path' => 'lofi',
     'title' => 'Lofi hip hop',
     'icon' => 'cassette'
   ],
@@ -17,6 +18,7 @@ $sections = [
     'icon' => 'turntable'
   ],
   'music-videos' => [
+    'path' => 'music_videos',
     'title' => 'Music videos',
     'icon' => 'youtube'
   ],
@@ -25,6 +27,7 @@ $sections = [
     'icon' => 'soundcloud'
   ],
   'movie-extra' => [
+    'path' => 'movie_extra',
     'title' => 'Movie extra',
     'icon' => 'film'
   ],
@@ -78,7 +81,7 @@ if ($sectionSlug === 'events') {
   }
 }
 $pageTitle = $section['title'] . ' - MC Peko';
-$canonicalUrl = 'https://peko.net/' . $sectionSlug . '.php';
+$canonicalUrl = 'https://peko.net/' . ($section['path'] ?? $sectionSlug);
 ?>
 <!DOCTYPE html>
 <html>
