@@ -48,6 +48,10 @@ Dark mode changes the interface without inverting the background photo.
 The header home link displays MC Peko as text; the site favicon is retained.
 Desktop section headers align with the side panels and their first icon rows.
 Section page headers repeat their icon on both sides to center the title.
+Close the page heading before rendering entries or controls. Keep a 16px gap
+below the heading on every section page so the first entry never appears part of it.
+Section pages go straight from their heading to entries or controls, without
+introductory description sections.
 The homepage keeps the personal introduction and shows the next upcoming event;
 full content is on the corresponding section pages.
 The homepage also displays the linked Fuzz Pop logo and artist label credit,

@@ -2,60 +2,39 @@
 $sections = [
   'lofi-hip-hop' => [
     'title' => 'Lofi hip hop',
-    'icon' => 'spotify',
-    'content' => <<<'HTML'
-<a href="https://open.spotify.com/artist/5p4HgZHdHOOWlE9q7aJ9ZM">Here they are on Spotify</a>, and you can find them on other outlets as well. Instrumental, around two minutes and 70 BPM kinda stuff with sufficient crackle, shuffle and microtonality.
-HTML
+    'icon' => 'spotify'
   ],
   'playlists' => [
     'title' => 'Playlists',
-    'icon' => 'spotify',
-    'content' => ''
+    'icon' => 'spotify'
   ],
   'bands' => [
     'title' => 'Bands',
-    'icon' => 'band',
-    'content' => <<<'HTML'
-I played bass in <a href="https://open.spotify.com/artist/74JX7v2IC9YPFTBmhuRV1X">Howlin' of the Wolf</a>, and drums and various instruments in <a href="https://open.spotify.com/artist/4trI2gf2BoSN6vTc8XrPYe">Silentlab</a>. And I'm in a vinyl only rehabilly band called <a href="http://bronson.no">Bronson Comet Lighter</a>, that you'll have to search around in the real world to get a hold of. <a href="https://arcticaantarctica.com">Arctica / Antarctica</a> was a polar ambient band that did some lovely concerts.
-HTML
+    'icon' => 'band'
   ],
   'remixes' => [
     'title' => 'Remixes',
-    'icon' => 'turntable',
-    'content' => <<<'HTML'
-I've done remixes of two of the Silentlab songs, and one by The Sky's Gone Out.
-HTML
+    'icon' => 'turntable'
   ],
   'music-videos' => [
     'title' => 'Music videos',
-    'icon' => 'youtube',
-    'content' => <<<'HTML'
-Sometimes we make music videos. Pop corn and turn on the YouTube with MC Peko, Bronson Comet Lighter, The Sky's Gone Out and Silentlab.
-HTML
+    'icon' => 'youtube'
   ],
   'polarized' => [
     'title' => '(Polarized)',
-    'icon' => 'soundcloud',
-    'content' => <<<'HTML'
-Enjoy some ice cold, SoundCloud only, <a href="https://soundcloud.com/mc-peko/sets/polarized">polar ambient remixes</a> of some tracks from some friends of mine.
-HTML
+    'icon' => 'soundcloud'
   ],
   'movie-extra' => [
     'title' => 'Movie extra',
-    'icon' => 'film',
-    'content' => <<<'HTML'
-I do some movie extra (statist) stuff from time to time. At your service, hit me up.
-HTML
+    'icon' => 'film'
   ],
   'releases' => [
     'title' => 'Releases',
-    'icon' => 'lp',
-    'content' => 'Records and other releases I have been involved with, including different editions. Newest releases are listed first.'
+    'icon' => 'lp'
   ],
   'events' => [
     'title' => 'Events',
-    'icon' => 'calendar',
-    'content' => 'Concerts, DJ sets and other performances. Upcoming and Previous dates.'
+    'icon' => 'calendar'
   ]
 ];
 
@@ -125,12 +104,6 @@ $canonicalUrl = 'https://peko.net/' . $sectionSlug . '.php';
       </svg>
     </div>
   </div>
-
-  <?php if ($section['content'] !== ''): ?>
-    <div class="padded center-on-medium-screen colored">
-      <?php echo $section['content']; ?>
-    </div>
-  <?php endif; ?>
 
   <?php if ($sectionSlug === 'releases'): ?>
     <div class="release-filter padded colored" role="group" aria-label="Release type">
