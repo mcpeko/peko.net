@@ -2,11 +2,11 @@
 $sections = [
   'lofi-hip-hop' => [
     'title' => 'Lofi hip hop',
-    'icon' => 'spotify'
+    'icon' => 'cassette'
   ],
   'playlists' => [
     'title' => 'Playlists',
-    'icon' => 'spotify'
+    'icon' => 'view_list'
   ],
   'bands' => [
     'title' => 'Bands',

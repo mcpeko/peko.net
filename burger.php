@@ -5,8 +5,8 @@
 
   <nav id="toc" class="toc-container" aria-label="Main navigation">
     <ul>
-      <li><a href="/lofi-hip-hop.php"><svg class="icons" aria-hidden="true"><use href="/icons.svg#spotify"></use></svg>Lofi hip hop</a></li>
-      <li><a href="/playlists.php"><svg class="icons" aria-hidden="true"><use href="/icons.svg#spotify"></use></svg>Playlists</a></li>
+      <li><a href="/lofi-hip-hop.php"><svg class="icons" aria-hidden="true"><use href="/icons.svg#cassette"></use></svg>Lofi hip hop</a></li>
+      <li><a href="/playlists.php"><svg class="icons" aria-hidden="true"><use href="/icons.svg#view_list"></use></svg>Playlists</a></li>
       <li><a href="/bands.php"><svg class="icons" aria-hidden="true"><use href="/icons.svg#band"></use></svg>Bands</a></li>
       <li><a href="/releases.php"><svg class="icons" aria-hidden="true"><use href="/icons.svg#lp"></use></svg>Releases</a></li>
       <li><a href="/remixes.php"><svg class="icons" aria-hidden="true"><use href="/icons.svg#turntable"></use></svg>Remixes</a></li>
