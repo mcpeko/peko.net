@@ -400,6 +400,18 @@ a:visited {
   line-height: 32px;
 }
 
+.top-heading > .heading img {
+  display: block;
+  height: auto;
+  max-height: 32px;
+  max-width: 100%;
+  width: auto;
+}
+
+.top-heading > .heading a:hover img {
+  opacity: 0.8;
+}
+
 .settings-toggle {
   align-items: center;
   background: none;

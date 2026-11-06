@@ -61,7 +61,8 @@ See the shared [deployment procedure](../SITES.md#deployment).
 This repo mirrors the live site. Changes are developed locally, then committed and pushed here, and finally uploaded to the server.
 
 Dark mode changes the interface without inverting the background photo.
-The header home link displays MC Peko as text; the site favicon is retained.
+The header home link displays the MC Peko logo. The SVG favicon uses the blue
+portrait panel with transparent face details.
 Desktop section headers align with the side panels and their first icon rows.
 Section page headers repeat their icon on both sides to center the title.
 Lofi hip hop uses the shared cassette icon; Playlists uses the view-list icon

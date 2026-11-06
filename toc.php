@@ -2,8 +2,8 @@
   <?php require($_SERVER['DOCUMENT_ROOT'] . "/burger.php"); ?>
 
   <div class="heading">
-    <a href="/">
-      MC PEKO
+    <a href="/" aria-label="MC Peko home">
+      <img src="/img/mc_peko.svg?v=<?php echo filemtime(__DIR__ . '/img/mc_peko.svg'); ?>" alt="MC Peko">
     </a>
   </div>
 
