@@ -161,7 +161,7 @@ a:visited {
 
 .label-logo {
   display: block;
-  height: clamp(72px, 10vw, 128px);
+  height: 32px;
   max-width: 100%;
   width: auto;
 }
