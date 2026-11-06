@@ -48,9 +48,11 @@ Everything is kept intentionally minimal and text-based.
 
 The standardized deployment workflow reads `.ftpignore` and recovers changes
 since the last successful upload. Existing `FTP_SERVER`, `FTP_USERNAME`,
-`FTP_PASSWORD` and `SERVER_DIR` secrets are accepted as SFTP compatibility
+`FTP_PASSWORD` secrets are accepted as SFTP compatibility
 aliases. Prefer `SFTP_HOST`, `SFTP_USERNAME`, `SFTP_PASSWORD`,
-`SFTP_REMOTE_DIR` and optional `SFTP_PORT` (22 by default).
+and optional `SFTP_PORT` (22 by default).
+The workflow defines `SFTP_REMOTE_DIR` as `/home/flamenco/public_html`.
+The old destination variable and `SERVER_DIR` secret are not used.
 Verify SFTP login and destination with manual **check** mode before uploading.
 Full mode preserves remote-only files. Run
 `node --test .github/tests/deployment.cjs` for deployment tests.
