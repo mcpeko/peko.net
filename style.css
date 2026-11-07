@@ -36,7 +36,7 @@ body {
   background-color: transparent;
   color: var(--white);
   margin: 0;
-  padding-top: 55px;
+  padding-top: 48px;
   font-family: Arial, sans-serif;
   font-size: 22px;
   text-decoration: none;
@@ -379,7 +379,8 @@ a:visited {
   align-items: center;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
-  height: 55px;
+  box-sizing: border-box;
+  height: 48px;
   left: 0;
   padding: 8px;
   position: fixed;
