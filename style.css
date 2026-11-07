@@ -437,7 +437,7 @@ a:visited {
   bottom: 0;
   display: none;
   flex-direction: column;
-  height: calc(100dvh - 55px);
+  height: calc(100dvh - 48px);
   left: 0;
   margin: 0 auto;
   max-width: var(--maxwidth);
@@ -446,7 +446,7 @@ a:visited {
   position: fixed;
   right: 0;
   text-align: left;
-  top: 55px;
+  top: 48px;
   width: 100%;
   z-index: 999;
 }
@@ -510,7 +510,7 @@ a:visited {
   overflow: hidden;
   position: fixed;
   right: 0;
-  top: 55px;
+  top: 48px;
   width: 100%;
   z-index: 999;
 }
@@ -577,9 +577,9 @@ body.settings-lock {
   .toc-container,
   .settings-panel {
     bottom: auto;
-    height: calc(100dvh - 87px);
+    height: calc(100dvh - 80px);
     margin: 16px 0;
-    top: 55px;
+    top: 48px;
     width: var(--sidebar-width);
   }
 
