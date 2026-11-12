@@ -135,7 +135,8 @@ Events are grouped under Upcoming and Previous headers using today's date in
 Europe/Oslo. Today's events remain upcoming; each group retains newest-first order.
 Event dates are labeled Date. Simple concert and DJ descriptions appear as
 Event metadata, using Concert and DJ set respectively. Every event starts with
-an Event metadata row; longer descriptions retain their text in that row.
+an Event metadata row with a star icon; Date retains its calendar icon.
+Longer descriptions retain their text in the Event row.
 Missing event posters use a portrait A4 (210:297) calendar-icon placeholder.
 Film placeholders retain their 16:9 proportions. Event links are applied
 directly to matching artist, event and venue text, including venue names within

@@ -74,7 +74,7 @@ function entryMetadataFields(): array
     'casting' => ['Casting', 'text', 'band'],
     'broadcaster' => ['Broadcaster', 'text', 'speaker'],
     'venue' => ['Venue', 'text', 'home'],
-    'event_name' => ['Event', 'text', 'calendar'],
+    'event_name' => ['Event', 'text', 'star'],
     'location' => ['Location', 'text', 'home'],
     'city' => ['City', 'text', 'world'],
     'original_copyright' => ['Original recording copyright', 'text', 'asterisk']

@@ -165,7 +165,7 @@ $canonicalUrl = 'https://peko.net/' . ($section['path'] ?? $sectionSlug);
           <dl class="entry-metadata">
             <?php if ($eventType !== null): ?>
               <div>
-                <dt><svg class="entry-metadata-icon" aria-hidden="true"><use href="/icons.svg#calendar"></use></svg> Event</dt>
+                <dt><svg class="entry-metadata-icon" aria-hidden="true"><use href="/icons.svg#star"></use></svg> Event</dt>
                 <dd><?php echo renderEntryLinkedText($eventType, $entry['links'] ?? []); ?></dd>
               </div>
             <?php endif; ?>
