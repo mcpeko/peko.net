@@ -50,7 +50,7 @@ function entryMetadataFields(): array
     'album_release_date' => ['Album release date', 'date', 'calendar'],
     'album_catalogue_number' => ['Album catalogue number', 'text', 'hash'],
     'written_by' => ['Written by', 'list', 'pen'],
-    'remixed_by' => ['Remixed by', 'list', 'turntable'],
+    'remixed_by' => ['Remixed by', 'list', 'customize'],
     'produced_by' => ['Produced by', 'list', 'settings'],
     'performed_by' => ['Performed by', 'list', 'band'],
     'video_by' => ['Video by', 'list', 'film'],

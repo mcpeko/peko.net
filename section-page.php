@@ -15,7 +15,7 @@ $sections = [
   ],
   'remixes' => [
     'title' => 'Remixes',
-    'icon' => 'turntable'
+    'icon' => 'customize'
   ],
   'music-videos' => [
     'path' => 'music_videos',

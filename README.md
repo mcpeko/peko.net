@@ -67,6 +67,7 @@ Desktop section headers align with the side panels and their first icon rows.
 Section page headers repeat their icon on both sides to center the title.
 Lofi hip hop uses the shared cassette icon; Playlists uses the view-list icon
 in both navigation and page headings.
+Remixes uses the customize icon in navigation, page headings and Remixed by credits.
 Close the page heading before rendering entries or controls. Keep a 16px gap
 below the heading on every section page so the first entry never appears part of it.
 Section pages go straight from their heading to entries or controls, without
