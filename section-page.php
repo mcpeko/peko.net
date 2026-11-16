@@ -80,7 +80,7 @@ if ($sectionSlug === 'events') {
     $entryGroups[$group][] = $entry;
   }
 }
-$pageTitle = $section['title'] . ' - MC Peko';
+$pageTitle = 'MC Peko - ' . $section['title'];
 $canonicalUrl = 'https://peko.net/' . ($section['path'] ?? $sectionSlug);
 ?>
 <!DOCTYPE html>
