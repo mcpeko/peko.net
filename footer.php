@@ -37,3 +37,4 @@
 </footer>
 
 <script src="index.js?v=<?php echo filemtime(__DIR__ . '/index.js'); ?>"></script>
+<script src="/swipe.js?v=<?php echo filemtime(__DIR__ . '/swipe.js'); ?>"></script>
