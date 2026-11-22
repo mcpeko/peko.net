@@ -70,7 +70,7 @@ jobs:
           fetch-depth: 0
 
       - name: Test deployment behavior
-        run: node --test .github/tests/deployment.cjs .github/tests/updates.cjs
+        run: node --test .github/tests/deployment.cjs .github/tests/updates.cjs .github/tests/navigation.cjs
 
       - name: Find last successful upload
         id: baseline

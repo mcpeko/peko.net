@@ -5,16 +5,24 @@
 
   <nav id="toc" class="toc-container" aria-label="Main navigation">
     <ul>
-      <li><a href="/lofi"><svg class="icons" aria-hidden="true"><use href="/icons.svg#cassette"></use></svg>Lofi hip hop</a></li>
-      <li><a href="/playlists"><svg class="icons" aria-hidden="true"><use href="/icons.svg#view_list"></use></svg>Playlists</a></li>
-      <li><a href="/bands"><svg class="icons" aria-hidden="true"><use href="/icons.svg#band"></use></svg>Bands</a></li>
-      <li><a href="/releases"><svg class="icons" aria-hidden="true"><use href="/icons.svg#lp"></use></svg>Releases</a></li>
-      <li><a href="/remixes"><svg class="icons" aria-hidden="true"><use href="/icons.svg#customize"></use></svg>Remixes</a></li>
-      <li><a href="/music_videos"><svg class="icons" aria-hidden="true"><use href="/icons.svg#youtube"></use></svg>Music videos</a></li>
-      <li><a href="/polarized"><svg class="icons" aria-hidden="true"><use href="/icons.svg#soundcloud"></use></svg>(Polarized)</a></li>
-      <li><a href="/movie_extra"><svg class="icons" aria-hidden="true"><use href="/icons.svg#film"></use></svg>Movie extra</a></li>
-      <li><a href="/events"><svg class="icons" aria-hidden="true"><use href="/icons.svg#calendar"></use></svg>Events</a></li>
-      <li><a href="/updates"><svg class="icons" aria-hidden="true"><use href="/icons.svg#github"></use></svg>Updates</a></li>
+      <?php
+      $tocCurrentPath = rtrim(preg_replace('~\.php$~', '', parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/'), '/') ?: '/';
+      if ($tocCurrentPath === '/index') $tocCurrentPath = '/';
+      foreach ([
+        ['/', 'Home', 'home'],
+        ['/lofi', 'Lofi hip hop', 'cassette'],
+        ['/playlists', 'Playlists', 'view_list'],
+        ['/bands', 'Bands', 'band'],
+        ['/releases', 'Releases', 'lp'],
+        ['/remixes', 'Remixes', 'customize'],
+        ['/music_videos', 'Music videos', 'youtube'],
+        ['/polarized', '(Polarized)', 'soundcloud'],
+        ['/movie_extra', 'Movie extra', 'film'],
+        ['/events', 'Events', 'calendar'],
+        ['/updates', 'Updates', 'github'],
+      ] as [$tocUrl, $tocLabel, $tocIcon]): ?>
+      <li><a href="<?php echo $tocUrl; ?>"<?php if ($tocCurrentPath === $tocUrl): ?> aria-current="page"<?php endif; ?>><svg class="icons" aria-hidden="true"><use href="/icons.svg#<?php echo $tocIcon; ?>"></use></svg><?php echo $tocLabel; ?></a></li>
+      <?php endforeach; ?>
     </ul>
 
     <div class="toc-close-wrap">
