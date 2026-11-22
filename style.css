@@ -65,6 +65,10 @@ footer {
   background-color: var(--color1);
 }
 
+body > .top-heading + * {
+  margin-top: 0;
+}
+
 /* LINKS */
 
 a {
