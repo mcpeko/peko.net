@@ -14,6 +14,7 @@
       <li><a href="/polarized"><svg class="icons" aria-hidden="true"><use href="/icons.svg#soundcloud"></use></svg>(Polarized)</a></li>
       <li><a href="/movie_extra"><svg class="icons" aria-hidden="true"><use href="/icons.svg#film"></use></svg>Movie extra</a></li>
       <li><a href="/events"><svg class="icons" aria-hidden="true"><use href="/icons.svg#calendar"></use></svg>Events</a></li>
+      <li><a href="/updates"><svg class="icons" aria-hidden="true"><use href="/icons.svg#github"></use></svg>Updates</a></li>
     </ul>
 
     <div class="toc-close-wrap">
