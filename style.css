@@ -756,7 +756,7 @@ footer .images {
 
 /* Apply focus styles on devices with hover capability (e.g., desktop) */
 @media (hover: hover) {
-  :focus {
+  :focus:not(:where(#toc *, #settings-panel *)) {
     outline: 1px solid white;
     outline-offset: 0; /* Adjust the spacing between the outline and the element */
     border-radius: 0; /* Removes rounded corners */
