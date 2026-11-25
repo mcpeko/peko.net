@@ -181,20 +181,8 @@ a:visited {
 /* Collapsable divs */
 
 .top-line {
-  align-items: center;
-  background: var(--grey1);
-  display: flex;
-  justify-content: space-between;
   margin: 16px auto;
   max-width: 4096px;
-  min-height: 48px;
-  padding: 8px 10px;
-}
-
-.top-line h1 {
-  line-height: 32px;
-  margin: 0;
-  text-align: left;
 }
 
 .icons {
