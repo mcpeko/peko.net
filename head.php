@@ -24,3 +24,4 @@ $ogImageSize = getimagesize(__DIR__ . '/img/peko_photo_small.png');
 
 <meta name="keywords" content="Peko, MC Peko, DJ Peko, Ole Peko Sørensen">
 <meta name="description" content="This is the official website for the artist MC Peko.">  
+<?php require __DIR__ . '/site_ui.php'; ?>

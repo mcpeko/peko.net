@@ -19,6 +19,12 @@ Everything is kept intentionally minimal and text-based.
 
 ## Tech
 
+The TOC begins with Home, Previous page, Play and Next page. Settings includes
+Background, off by default, using the existing MC Peko photo. The choice
+persists across pages and Reset turns it off. Shared component copies
+`site_ui.php`, `site_ui.css` and `site_ui.js` are maintained from Pekosoft,
+with the local image configured in `data/site_ui.json`.
+
 - HTML, CSS, PHP (no frameworks)
 - Plain JavaScript (`index.js`) for small interactive bits
 - SVG icons (`icons.svg`)
